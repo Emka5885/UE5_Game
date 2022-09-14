@@ -62,6 +62,12 @@
     <Filter Include="Source\MyGame\MainMenu">
       <UniqueIdentifier>{6F356949-AAC2-397E-B14C-3C76CCD55601}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\MyGame\MainMenu\MainMenuGameModeBase.cpp">
+      <Filter>Source\MyGame\MainMenu</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyGame\MainMenu\MainMenuGameModeBase.h">
+      <Filter>Source\MyGame\MainMenu</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\MyGame\MainMenu\MainMenuWidget.cpp">
       <Filter>Source\MyGame\MainMenu</Filter>
     </ClCompile>
