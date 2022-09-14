@@ -51,6 +51,7 @@ private:
 	void MoveY(float Value);
 	void MoveX(float Value);
 	void Jump();
+	void BackToMainMenu();
 
 	int32 JumpCount = 0;
 

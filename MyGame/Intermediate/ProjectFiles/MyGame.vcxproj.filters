@@ -47,6 +47,12 @@
     <Filter Include="Source\MyGame\Game">
       <UniqueIdentifier>{FC4133CE-127E-3299-8785-1E74FC2B642A}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\MyGame\Game\MG_Character.cpp">
+      <Filter>Source\MyGame\Game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyGame\Game\MG_Character.h">
+      <Filter>Source\MyGame\Game</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\MyGame\Game\MG_GameModeBase.cpp">
       <Filter>Source\MyGame\Game</Filter>
     </ClCompile>

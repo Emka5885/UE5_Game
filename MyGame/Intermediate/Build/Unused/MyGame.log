@@ -1,20 +1,5 @@
 ﻿  Using bundled DotNet SDK
   Log file: C:\Users\EMI\AppData\Local\UnrealBuildTool\Log.txt
   Using 'git status' to determine working set for adaptive non-unity build (C:\Users\EMI\Documents\GitHub\UE5_MyGame).
-  Building MyGameEditor...
-  Using Visual Studio 2022 14.33.31629 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  [Adaptive Build] Excluded from MyGame unity file: MainMenuGameModeBase.cpp
-  Determining max actions to execute in parallel (4 physical cores, 4 logical cores)
-    Executing up to 4 processes, one per physical core
-    Requested 1,5 GB free memory per action, 5,91 GB available: limiting max parallel actions to 3
-  Building 6 actions with 3 processes...
-  [1/6] Compile MyGame.init.gen.cpp
-  [2/6] Compile MainMenuGameModeBase.gen.cpp
-  [3/6] Compile MainMenuGameModeBase.cpp
-  [4/6] Link UnrealEditor-MyGame.lib
-     Trwa tworzenie biblioteki C:\Users\EMI\Documents\GitHub\UE5_MyGame\MyGame\Intermediate\Build\Win64\UnrealEditor\Development\MyGame\UnrealEditor-MyGame.lib i obiektu C:\Users\EMI\Documents\GitHub\UE5_MyGame\MyGame\Intermediate\Build\Win64\UnrealEditor\Development\MyGame\UnrealEditor-MyGame.exp
-  [5/6] Link UnrealEditor-MyGame.dll
-     Trwa tworzenie biblioteki C:\Users\EMI\Documents\GitHub\UE5_MyGame\MyGame\Intermediate\Build\Win64\UnrealEditor\Development\MyGame\UnrealEditor-MyGame.suppressed.lib i obiektu C:\Users\EMI\Documents\GitHub\UE5_MyGame\MyGame\Intermediate\Build\Win64\UnrealEditor\Development\MyGame\UnrealEditor-MyGame.suppressed.exp
-  [6/6] WriteMetadata MyGameEditor.target
-  Total time in Parallel executor: 2,61 seconds
-  Total execution time: 4,44 seconds
+UnrealBuildTool : error : Unable to build while Live Coding is active. Exit the editor and game, or press Ctrl+Alt+F11 if iterating on code in the editor or game
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.MakeFile.Targets(44,5): error MSB3073: Polecenie „"C:\Program Files\Epic Games\UE_5.0\Engine\Build\BatchFiles\Build.bat" MyGameEditor Win64 Development -Project="C:\Users\EMI\Documents\GitHub\UE5_MyGame\MyGame\MyGame.uproject" -WaitMutex -FromMsBuild” zostało zakończone przez kod 6.

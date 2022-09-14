@@ -48,8 +48,10 @@ void AMG_Pawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 	InputComponent->BindAxis("MoveX", this, &AMG_Pawn::MoveX);
 	InputComponent->BindAxis("MoveY", this, &AMG_Pawn::MoveY);
 	// Custom Action Binding.
-	InputComponent->BindAction("ChangeLevel", IE_Pressed, this, &AMG_Pawn::ChangeLevel);
+	InputComponent->BindAction("ChangeLevel", IE_Pressed, this, &AMG_Pawn::ChangeLevel);   // ?
 	InputComponent->BindAction("Jump", IE_Pressed, this, &AMG_Pawn::Jump);
+	InputComponent->BindAction("BackToMainMenu", IE_Pressed, this, &AMG_Pawn::BackToMainMenu);
+	
 }
 
 void AMG_Pawn::ChangeLevel()
@@ -57,7 +59,7 @@ void AMG_Pawn::ChangeLevel()
 	FString current = GetWorld()->GetMapName();
 	current.RemoveFromStart(GetWorld()->StreamingLevelsPrefix);
 
-	for (int i = 0; i < levels.Num(); i++)
+	for (int i = 1; i < levels.Num(); i++)
 	{
 		if (current != levels[i])
 		{
@@ -88,4 +90,9 @@ void AMG_Pawn::Jump()
 	Mesh->AddImpulse(FVector(0, 0, JumpImpulse));
 	// Track how many times we've jumped.   //T³umaczenie - (track) "œledŸ"
 	JumpCount++;
+}
+
+void AMG_Pawn::BackToMainMenu()
+{
+	UGameplayStatics::OpenLevel(GetWorld(), FName(levels[0]));
 }
