@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\EMI\\Documents\\GitHub\\UE5_MyGame\\MyGame\\Source\\MyGame\\MyGame.Build.cs",
+		"C:\\Users\\EMI\\Documents\\GitHub\\UE5_MyGame\\MyGame\\Source\\MyGame.Target.cs",
+		"C:\\Users\\EMI\\Documents\\GitHub\\UE5_MyGame\\MyGame\\Source\\MyGameEditor.Target.cs"
+	],
+	"EngineVersion": "5.0.3"
+}

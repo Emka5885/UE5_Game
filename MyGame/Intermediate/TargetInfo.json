@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "MyGame",
+			"Path": "C:\\Users\\EMI\\Documents\\GitHub\\UE5_MyGame\\MyGame\\Source\\MyGame.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "MyGameEditor",
+			"Path": "C:\\Users\\EMI\\Documents\\GitHub\\UE5_MyGame\\MyGame\\Source\\MyGameEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

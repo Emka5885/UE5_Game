@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\emi\\documents\\github\\ue5_mygame\\mygame\\source\\mygame\\mygame.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\emi\\documents\\github\\ue5_mygame\\mygame\\intermediate\\build\\win64\\mygameeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\emi\\documents\\github\\ue5_mygame\\mygame\\intermediate\\build\\win64\\unrealeditor\\development\\mygame\\definitions.mygame.h",
+            "c:\\users\\emi\\documents\\github\\ue5_mygame\\mygame\\source\\mygame\\mygame.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
