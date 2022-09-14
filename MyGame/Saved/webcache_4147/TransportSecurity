@@ -1,9 +1,9 @@
 {
    "1SPWdvPJP1fCUhLZIB1LpusMdju/XAX2DbnoblktVp0=": {
-      "expiry": 1694716545.414199,
+      "expiry": 1694717115.213676,
       "mode": "force-https",
       "sts_include_subdomains": true,
-      "sts_observed": 1663180545.414202
+      "sts_observed": 1663181115.213678
    },
    "3ZwFSNHjhrLO6Heo8BmbHv933gt01YHG10631DOjeRk=": {
       "expiry": 1678732331.711112,
