@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "ThirdPerson",
+			"Path": "C:\\Users\\EMI\\Documents\\GitHub\\UE5_MyGame\\ThirdPerson\\Source\\ThirdPerson.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ThirdPersonEditor",
+			"Path": "C:\\Users\\EMI\\Documents\\GitHub\\UE5_MyGame\\ThirdPerson\\Source\\ThirdPersonEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

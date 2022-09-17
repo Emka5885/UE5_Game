@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\emi\\documents\\github\\ue5_mygame\\thirdperson\\intermediate\\build\\win64\\unrealeditor\\inc\\thirdperson\\thirdperson.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\emi\\documents\\github\\ue5_mygame\\thirdperson\\intermediate\\build\\win64\\thirdpersoneditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\emi\\documents\\github\\ue5_mygame\\thirdperson\\intermediate\\build\\win64\\unrealeditor\\development\\thirdperson\\definitions.thirdperson.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
