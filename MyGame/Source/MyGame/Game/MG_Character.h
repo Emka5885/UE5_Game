@@ -36,8 +36,15 @@ protected:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	bool IsRestingV;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	bool StartTimeV;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	bool IsHittingV;
 
 	void IfResting();
+	void IfHitting();
+
+	void IfJump();
 
 	/**
 	 * Called via input to turn at a given rate.

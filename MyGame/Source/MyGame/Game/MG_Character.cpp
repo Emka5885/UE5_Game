@@ -51,6 +51,8 @@ AMG_Character::AMG_Character()
 	// are set in the derived blueprint asset named ThirdPersonCharacter (to avoid direct content references in C++)
 
 	IsRestingV = false;
+	StartTimeV = false;
+	IsHittingV = false;
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -60,13 +62,14 @@ void AMG_Character::SetupPlayerInputComponent(class UInputComponent* PlayerInput
 {
 	// Set up gameplay key bindings
 	check(PlayerInputComponent);
-	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
+	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &AMG_Character::IfJump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 
 	PlayerInputComponent->BindAxis("Move Forward / Backward", this, &AMG_Character::MoveForward);
 	PlayerInputComponent->BindAxis("Move Right / Left", this, &AMG_Character::MoveRight);
 
 	PlayerInputComponent->BindAction("Resting", IE_Pressed, this, &AMG_Character::IfResting);
+	PlayerInputComponent->BindAction("Hit", IE_Pressed, this, &AMG_Character::IfHitting);
 
 	PlayerInputComponent->BindAction("BackToMainMenu", IE_Pressed, this, &AMG_Character::BackToMainMenu);
 
@@ -83,14 +86,17 @@ void AMG_Character::SetupPlayerInputComponent(class UInputComponent* PlayerInput
 	PlayerInputComponent->BindTouch(IE_Released, this, &AMG_Character::TouchStopped);
 }
 
-//void AMG_Character::Jump()
-//{
-//	IsRestingV = false;
-//}
+void AMG_Character::IfJump()
+{
+	IsRestingV = false;
+	StartTimeV = false;
+	Jump();
+}
 
 void AMG_Character::TouchStarted(ETouchIndex::Type FingerIndex, FVector Location)
 {
 	IsRestingV = false;
+	StartTimeV = false;
 	Jump();
 }
 
@@ -124,6 +130,7 @@ void AMG_Character::MoveForward(float Value)
 		AddMovementInput(Direction, Value);
 
 		IsRestingV = false;
+		StartTimeV = false;
 	}
 }
 
@@ -141,15 +148,34 @@ void AMG_Character::MoveRight(float Value)
 		AddMovementInput(Direction, Value);
 
 		IsRestingV = false;
+		StartTimeV = false;
 	}
 }
 
 void AMG_Character::IfResting()
 {
 	if (IsRestingV)
+	{
 		IsRestingV = false;
+		StartTimeV = false;
+	}
 	else
+	{
 		IsRestingV = true;
+		StartTimeV = true;
+	}
+}
+
+void AMG_Character::IfHitting()
+{
+	if (IsHittingV)
+	{
+		IsHittingV = false;
+	}
+	else
+	{
+		IsHittingV = true;
+	}
 }
 
 void AMG_Character::BackToMainMenu()

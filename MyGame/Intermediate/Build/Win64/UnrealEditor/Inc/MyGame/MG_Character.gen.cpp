@@ -47,6 +47,16 @@ void EmptyLinkFunctionForGeneratedCodeMG_Character() {}
 #endif
 		static void NewProp_IsRestingV_SetBit(void* Obj);
 		static const UECodeGen_Private::FBoolPropertyParams NewProp_IsRestingV;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_StartTimeV_MetaData[];
+#endif
+		static void NewProp_StartTimeV_SetBit(void* Obj);
+		static const UECodeGen_Private::FBoolPropertyParams NewProp_StartTimeV;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_IsHittingV_MetaData[];
+#endif
+		static void NewProp_IsHittingV_SetBit(void* Obj);
+		static const UECodeGen_Private::FBoolPropertyParams NewProp_IsHittingV;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -104,11 +114,35 @@ void EmptyLinkFunctionForGeneratedCodeMG_Character() {}
 		((AMG_Character*)Obj)->IsRestingV = 1;
 	}
 	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AMG_Character_Statics::NewProp_IsRestingV = { "IsRestingV", nullptr, (EPropertyFlags)0x0020080000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AMG_Character), &Z_Construct_UClass_AMG_Character_Statics::NewProp_IsRestingV_SetBit, METADATA_PARAMS(Z_Construct_UClass_AMG_Character_Statics::NewProp_IsRestingV_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMG_Character_Statics::NewProp_IsRestingV_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMG_Character_Statics::NewProp_StartTimeV_MetaData[] = {
+		{ "Category", "MG_Character" },
+		{ "ModuleRelativePath", "Game/MG_Character.h" },
+	};
+#endif
+	void Z_Construct_UClass_AMG_Character_Statics::NewProp_StartTimeV_SetBit(void* Obj)
+	{
+		((AMG_Character*)Obj)->StartTimeV = 1;
+	}
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AMG_Character_Statics::NewProp_StartTimeV = { "StartTimeV", nullptr, (EPropertyFlags)0x0020080000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AMG_Character), &Z_Construct_UClass_AMG_Character_Statics::NewProp_StartTimeV_SetBit, METADATA_PARAMS(Z_Construct_UClass_AMG_Character_Statics::NewProp_StartTimeV_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMG_Character_Statics::NewProp_StartTimeV_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMG_Character_Statics::NewProp_IsHittingV_MetaData[] = {
+		{ "Category", "MG_Character" },
+		{ "ModuleRelativePath", "Game/MG_Character.h" },
+	};
+#endif
+	void Z_Construct_UClass_AMG_Character_Statics::NewProp_IsHittingV_SetBit(void* Obj)
+	{
+		((AMG_Character*)Obj)->IsHittingV = 1;
+	}
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AMG_Character_Statics::NewProp_IsHittingV = { "IsHittingV", nullptr, (EPropertyFlags)0x0020080000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AMG_Character), &Z_Construct_UClass_AMG_Character_Statics::NewProp_IsHittingV_SetBit, METADATA_PARAMS(Z_Construct_UClass_AMG_Character_Statics::NewProp_IsHittingV_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMG_Character_Statics::NewProp_IsHittingV_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMG_Character_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMG_Character_Statics::NewProp_CameraBoom,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMG_Character_Statics::NewProp_FollowCamera,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMG_Character_Statics::NewProp_TurnRateGamepad,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMG_Character_Statics::NewProp_IsRestingV,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMG_Character_Statics::NewProp_StartTimeV,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMG_Character_Statics::NewProp_IsHittingV,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AMG_Character_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AMG_Character>::IsAbstract,
@@ -146,9 +180,9 @@ void EmptyLinkFunctionForGeneratedCodeMG_Character() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MyGame_Source_MyGame_Game_MG_Character_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AMG_Character, AMG_Character::StaticClass, TEXT("AMG_Character"), &Z_Registration_Info_UClass_AMG_Character, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMG_Character), 3721510729U) },
+		{ Z_Construct_UClass_AMG_Character, AMG_Character::StaticClass, TEXT("AMG_Character"), &Z_Registration_Info_UClass_AMG_Character, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMG_Character), 2598626780U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MyGame_Source_MyGame_Game_MG_Character_h_1203568659(TEXT("/Script/MyGame"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MyGame_Source_MyGame_Game_MG_Character_h_1300099637(TEXT("/Script/MyGame"),
 		Z_CompiledInDeferFile_FID_MyGame_Source_MyGame_Game_MG_Character_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MyGame_Source_MyGame_Game_MG_Character_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
