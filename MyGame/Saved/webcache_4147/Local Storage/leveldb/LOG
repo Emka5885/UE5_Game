@@ -1,3 +1,5 @@
-2022/09/23-13:17:12.627 4e84 Reusing MANIFEST C:/Users/EMI/Documents/GitHub/UE5_MyGame/MyGame/Saved/webcache_4147\Local Storage\leveldb/MANIFEST-000001
-2022/09/23-13:17:12.628 4e84 Recovering log #3
-2022/09/23-13:17:12.629 4e84 Reusing old log C:/Users/EMI/Documents/GitHub/UE5_MyGame/MyGame/Saved/webcache_4147\Local Storage\leveldb/000003.log 
+2022/09/23-18:01:58.858 2228 Reusing MANIFEST C:/Users/EMI/Documents/GitHub/UE5_MyGame/MyGame/Saved/webcache_4147\Local Storage\leveldb/MANIFEST-000001
+2022/09/23-18:01:58.858 2228 Recovering log #3
+2022/09/23-18:01:58.859 2228 Level-0 table #3: started
+2022/09/23-18:01:58.863 2228 Level-0 table #3: 12295 bytes OK
+2022/09/23-18:01:58.867 2228 Delete type=0 #3
