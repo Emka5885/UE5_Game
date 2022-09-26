@@ -1,0 +1,1049 @@
+﻿Log file open, 09/26/22 15:31:50
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogProfilingDebugging: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogWindows: Started CrashReportClient (pid=10772)
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: MyGame
+LogCore: UnrealTraceServer: Trace store launch successful
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.0-CL-20979098"
+LogCsvProfiler: Display: Metadata set : engineversion="5.0.3-20979098+++UE5+Release-5.0"
+LogCsvProfiler: Display: Metadata set : commandline="" C:\Users\EMI\Documents\GitHub\UE5_MyGame\MyGame\MyGame.uproject""
+LogCsvProfiler: Display: Metadata set : os="Windows 10 (20H2) [10.0.19042.1889] "
+LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|Intel(R) Core(TM) i5-7400 CPU @ 3.00GHz"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : loginid="0ce84277450482270ac8378aa2b3beb8"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogPlatformFile: Not using cached read wrapper
+LogStats: Stats thread started at 1.670500
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-3932F36E493C7C1A5BB2379AF8EFCAC0
+         Session CrashGUID >====================================================
+LogConfig: Display: Loading HoloLens ini files took 0.03 seconds
+LogConfig: Display: Loading Android ini files took 0.04 seconds
+LogPluginManager: Mounting Engine plugin Bridge
+LogPluginManager: Mounting Engine plugin FastBuildController
+LogPluginManager: Mounting Engine plugin MeshPainting
+LogPluginManager: Mounting Engine plugin XGEController
+LogConfig: Display: Loading IOS ini files took 0.03 seconds
+LogPluginManager: Mounting Engine plugin Paper2D
+LogPluginManager: Mounting Engine plugin EnvironmentQueryEditor
+LogPluginManager: Mounting Engine plugin AISupport
+LogPluginManager: Mounting Engine plugin AnimationModifierLibrary
+LogPluginManager: Mounting Engine plugin BlendSpaceMotionAnalysis
+LogPluginManager: Mounting Engine plugin ControlRig
+LogPluginManager: Mounting Engine plugin IKRig
+LogConfig: Display: Loading Linux ini files took 0.05 seconds
+LogPluginManager: Mounting Engine plugin ControlRigSpline
+LogPluginManager: Mounting Engine plugin GameplayCameras
+LogPluginManager: Mounting Engine plugin OodleNetwork
+LogPluginManager: Mounting Engine plugin CameraShakePreviewer
+LogPluginManager: Mounting Engine plugin AnimationSharing
+LogPluginManager: Mounting Engine plugin CLionSourceCodeAccess
+LogPluginManager: Mounting Engine plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting Engine plugin GitSourceControl
+LogPluginManager: Mounting Engine plugin NullSourceCodeAccess
+LogPluginManager: Mounting Engine plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting Engine plugin PerforceSourceControl
+LogConfig: Display: Loading Mac ini files took 0.03 seconds
+LogConfig: Display: Loading LinuxArm64 ini files took 0.05 seconds
+LogPluginManager: Mounting Engine plugin PlasticSourceControl
+LogPluginManager: Mounting Engine plugin PixWinPlugin
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin PropertyAccessNode
+LogPluginManager: Mounting Engine plugin RiderSourceCodeAccess
+LogPluginManager: Mounting Engine plugin SubversionSourceControl
+LogPluginManager: Mounting Engine plugin TextureFormatOodle
+LogPluginManager: Mounting Engine plugin TraceDataFilters
+LogPluginManager: Mounting Engine plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin AssetManagerEditor
+LogPluginManager: Mounting Engine plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin CryptoKeys
+LogPluginManager: Mounting Engine plugin CurveEditorTools
+LogConfig: Display: Loading Unix ini files took 0.04 seconds
+LogConfig: Display: Loading TVOS ini files took 0.04 seconds
+LogPluginManager: Mounting Engine plugin DataValidation
+LogPluginManager: Mounting Engine plugin EditorDebugTools
+LogPluginManager: Mounting Engine plugin EditorScriptingUtilities
+LogPluginManager: Mounting Engine plugin FacialAnimation
+LogPluginManager: Mounting Engine plugin GameplayTagsEditor
+LogPluginManager: Mounting Engine plugin GeometryMode
+LogPluginManager: Mounting Engine plugin MacGraphicsSwitching
+LogPluginManager: Mounting Engine plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting Engine plugin MaterialAnalyzer
+LogPluginManager: Mounting Engine plugin ModelingToolsEditorMode
+LogPluginManager: Mounting Engine plugin PluginBrowser
+LogConfig: Display: Loading VulkanPC ini files took 0.03 seconds
+LogPluginManager: Mounting Engine plugin SequencerAnimTools
+LogPluginManager: Mounting Engine plugin SpeedTreeImporter
+LogPluginManager: Mounting Engine plugin StylusInput
+LogPluginManager: Mounting Engine plugin WorldPartitionHLODUtilities
+LogConfig: Display: Loading Windows ini files took 0.04 seconds
+LogPluginManager: Mounting Engine plugin DatasmithContent
+LogPluginManager: Mounting Engine plugin VariantManagerContent
+LogPluginManager: Mounting Engine plugin BackChannel
+LogPluginManager: Mounting Engine plugin AutomationUtils
+LogPluginManager: Mounting Engine plugin ChaosEditor
+LogPluginManager: Mounting Engine plugin ChaosCloth
+LogPluginManager: Mounting Engine plugin ChaosClothEditor
+LogPluginManager: Mounting Engine plugin ChaosNiagara
+LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
+LogPluginManager: Mounting Engine plugin CharacterAI
+LogPluginManager: Mounting Engine plugin Niagara
+LogPluginManager: Mounting Engine plugin FullBodyIK
+LogPluginManager: Mounting Engine plugin AlembicImporter
+LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
+LogPluginManager: Mounting Engine plugin GeometryFlow
+LogPluginManager: Mounting Engine plugin MeshModelingToolsetExp
+LogPluginManager: Mounting Engine plugin MeshLODToolset
+LogPluginManager: Mounting Engine plugin OpenImageDenoise
+LogPluginManager: Mounting Engine plugin PlanarCut
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogPluginManager: Mounting Engine plugin ProxyLODPlugin
+LogPluginManager: Mounting Engine plugin PythonScriptPlugin
+LogPluginManager: Mounting Engine plugin SkeletalReduction
+LogPluginManager: Mounting Engine plugin AndroidMedia
+LogPluginManager: Mounting Engine plugin AvfMedia
+LogPluginManager: Mounting Engine plugin ImgMedia
+LogPluginManager: Mounting Engine plugin MediaCompositing
+LogPluginManager: Mounting Engine plugin MediaPlayerEditor
+LogPluginManager: Mounting Engine plugin WebMMedia
+LogPluginManager: Mounting Engine plugin WmfMedia
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin ActorSequence
+LogPluginManager: Mounting Engine plugin UdpMessaging
+LogPluginManager: Mounting Engine plugin LevelSequenceEditor
+LogPluginManager: Mounting Engine plugin MatineeToLevelSequence
+LogPluginManager: Mounting Engine plugin TemplateSequence
+LogPluginManager: Mounting Engine plugin SequencerScripting
+LogPluginManager: Mounting Engine plugin OnlineSubsystem
+LogPluginManager: Mounting Engine plugin OnlineBase
+LogPluginManager: Mounting Engine plugin OnlineSubsystemNull
+LogPluginManager: Mounting Engine plugin OnlineSubsystemUtils
+LogPluginManager: Mounting Engine plugin LauncherChunkInstaller
+LogPluginManager: Mounting Engine plugin ActorLayerUtilities
+LogPluginManager: Mounting Engine plugin AndroidFileServer
+LogPluginManager: Mounting Engine plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin AndroidMoviePlayer
+LogPluginManager: Mounting Engine plugin AndroidPermission
+LogPluginManager: Mounting Engine plugin AppleImageUtils
+LogPluginManager: Mounting Engine plugin AppleMoviePlayer
+LogPluginManager: Mounting Engine plugin ArchVisCharacter
+LogPluginManager: Mounting Engine plugin AssetTags
+LogPluginManager: Mounting Engine plugin AudioCapture
+LogPluginManager: Mounting Engine plugin AudioSynesthesia
+LogPluginManager: Mounting Engine plugin ChunkDownloader
+LogPluginManager: Mounting Engine plugin CableComponent
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
+LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin GeometryCache
+LogPluginManager: Mounting Engine plugin GeometryProcessing
+LogPluginManager: Mounting Engine plugin GoogleCloudMessaging
+LogPluginManager: Mounting Engine plugin HairStrands
+LogPluginManager: Mounting Engine plugin GooglePAD
+LogPluginManager: Mounting Engine plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LocationServicesBPLibrary
+LogPluginManager: Mounting Engine plugin MeshModelingToolset
+LogPluginManager: Mounting Engine plugin MobilePatchingUtils
+LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
+LogPluginManager: Mounting Engine plugin PropertyAccessEditor
+LogPluginManager: Mounting Engine plugin ResonanceAudio
+LogPluginManager: Mounting Engine plugin RuntimePhysXCooking
+LogPluginManager: Mounting Engine plugin SignificanceManager
+LogPluginManager: Mounting Engine plugin SoundFields
+LogPluginManager: Mounting Engine plugin Synthesis
+LogPluginManager: Mounting Engine plugin WebMMoviePlayer
+LogPluginManager: Mounting Engine plugin WindowsDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin WindowsMoviePlayer
+LogPluginManager: Mounting Engine plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting Engine plugin Interchange
+LogPluginManager: Mounting Engine plugin InterchangeEditor
+LogPluginManager: Mounting Engine plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting Engine plugin OnlineServices
+LogPluginManager: Mounting Engine plugin OnlineSubsystemIOS
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Bridge/Content/' mounted to '/Bridge/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/2D/Paper2D/Content/' mounted to '/Paper2D/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRig/Content/' mounted to '/ControlRig/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/IKRig/Content/' mounted to '/IKRig/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRigSpline/Content/' mounted to '/ControlRigSpline/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Developer/AnimationSharing/Content/' mounted to '/AnimationSharing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/GeometryMode/Content/' mounted to '/GeometryMode/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/ModelingToolsEditorMode/Content/' mounted to '/ModelingToolsEditorMode/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/SpeedTreeImporter/Content/' mounted to '/SpeedTreeImporter/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Enterprise/DatasmithContent/Content/' mounted to '/DatasmithContent/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosClothEditor/Content/' mounted to '/ChaosClothEditor/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosNiagara/Content/' mounted to '/ChaosNiagara/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosSolverPlugin/Content/' mounted to '/ChaosSolverPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/FX/Niagara/Content/' mounted to '/Niagara/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/FullBodyIK/Content/' mounted to '/FullBodyIK/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/GeometryCollectionPlugin/Content/' mounted to '/GeometryCollectionPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/GeometryFlow/Content/' mounted to '/GeometryFlow/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/MeshModelingToolsetExp/Content/' mounted to '/MeshModelingToolsetExp/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/MeshLODToolset/Content/' mounted to '/MeshLODToolset/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/PythonScriptPlugin/Content/' mounted to '/PythonScriptPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Media/MediaCompositing/Content/' mounted to '/MediaCompositing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/MovieScene/SequencerScripting/Content/' mounted to '/SequencerScripting/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/AudioSynesthesia/Content/' mounted to '/AudioSynesthesia/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/GeometryProcessing/Content/' mounted to '/GeometryProcessing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/HairStrands/Content/' mounted to '/HairStrands/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/MeshModelingToolset/Content/' mounted to '/MeshModelingToolset/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/ResonanceAudio/Content/' mounted to '/ResonanceAudio/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/Synthesis/Content/' mounted to '/Synthesis/'
+SourceControl: Source control is disabled
+SourceControl: Source control is disabled
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: Created online subsystem instance for: NULL
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE5+Release-5.0-CL-20979098
+LogInit: Engine Version: 5.0.3-20979098+++UE5+Release-5.0
+LogInit: Compatible Engine Version: 5.0.0-19505902+++UE5+Release-5.0
+LogInit: Net CL: 19505902
+LogInit: OS: Windows 10 (20H2) [10.0.19042.1889] (), CPU: Intel(R) Core(TM) i5-7400 CPU @ 3.00GHz, GPU: NVIDIA GeForce GTX 1070 Ti
+LogInit: Compiled (64-bit): Jul  7 2022 02:16:06
+LogInit: Compiled with Visual C++: 19.29.30138.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE5+Release-5.0
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/Win64/
+LogInit: Allocator: Mimalloc
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 34
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 20
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 45
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 59
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 3
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   UE5-Main (697DD581-E64F-41AB-AA4A-51ECBEB7B628): 59
+LogDevObjectVersion:   UE5-Release (D89B5E42-24BD-4D46-8412-ACA8DF641779): 36
+LogDevObjectVersion:   UE5-PrivateFrosty (59DA5D52-1232-4948-B878-597870B8E98B): 8
+LogDevObjectVersion:   UE5-Dev-Cooker (26075A32-730F-4708-88E9-8C32F1599D05): 0
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogDevObjectVersion:   UE5-Dev-LWCRendering (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+LogConfig: CVar [[r.DetectAndWarnOfBadDrivers:0]] deferred - dummy variable created
+LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+[2022.09.26-13.31.52:292][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [Engine]
+[2022.09.26-13.31.52:292][  0]LogConfig: CVar [[VisualizeCalibrationColorMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationColor.PPM_DefaultCalibrationColor]] deferred - dummy variable created
+[2022.09.26-13.31.52:292][  0]LogConfig: CVar [[VisualizeCalibrationGrayscaleMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale.PPM_DefaultCalibrationGrayscale]] deferred - dummy variable created
+[2022.09.26-13.31.52:292][  0]LogConfig: CVar [[MaxSkinBones:(Default=65536,PerPlatform=(("Mobile", 256)))]] deferred - dummy variable created
+[2022.09.26-13.31.52:293][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [Engine]
+[2022.09.26-13.31.52:293][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [Engine]
+[2022.09.26-13.31.52:293][  0]LogConfig: CVar [[s.MaxPackageSummarySize:16384]] deferred - dummy variable created
+[2022.09.26-13.31.52:293][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__SoundBase]] deferred - dummy variable created
+[2022.09.26-13.31.52:293][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__MaterialInterface]] deferred - dummy variable created
+[2022.09.26-13.31.52:293][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__DeviceProfileManager]] deferred - dummy variable created
+[2022.09.26-13.31.52:293][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [Engine]
+[2022.09.26-13.31.52:293][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [Engine]
+[2022.09.26-13.31.52:293][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Average",ToolTip="Simulates average internet conditions")]] deferred - dummy variable created
+[2022.09.26-13.31.52:293][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Bad",ToolTip="Simulates laggy internet conditions")]] deferred - dummy variable created
+[2022.09.26-13.31.52:293][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [Engine]
+[2022.09.26-13.31.52:293][  0]LogConfig: CVar [[DefaultPVRTCQuality:1]] deferred - dummy variable created
+[2022.09.26-13.31.52:293][  0]LogConfig: CVar [[DefaultASTCQualityBySpeed:1]] deferred - dummy variable created
+[2022.09.26-13.31.52:293][  0]LogConfig: CVar [[DefaultASTCQualityBySize:3]] deferred - dummy variable created
+[2022.09.26-13.31.52:293][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:WidgetBlueprint]] deferred - dummy variable created
+[2022.09.26-13.31.52:293][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GroupActor]] deferred - dummy variable created
+[2022.09.26-13.31.52:293][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MetaData]] deferred - dummy variable created
+[2022.09.26-13.31.52:293][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ObjectRedirector]] deferred - dummy variable created
+[2022.09.26-13.31.52:293][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NavMeshRenderingComponent]] deferred - dummy variable created
+[2022.09.26-13.31.52:293][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ReflectionCaptureComponent]] deferred - dummy variable created
+[2022.09.26-13.31.52:293][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:TextRenderComponent]] deferred - dummy variable created
+[2022.09.26-13.31.52:293][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:Font]] deferred - dummy variable created
+[2022.09.26-13.31.52:293][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:InterpCurveEdSetup]] deferred - dummy variable created
+[2022.09.26-13.31.52:293][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MaterialExpression]] deferred - dummy variable created
+[2022.09.26-13.31.52:293][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MatineeActorCameraAnim]] deferred - dummy variable created
+[2022.09.26-13.31.52:293][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraEmitter]] deferred - dummy variable created
+[2022.09.26-13.31.52:293][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraScript]] deferred - dummy variable created
+[2022.09.26-13.31.52:293][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleEmitter]] deferred - dummy variable created
+[2022.09.26-13.31.52:293][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleLODLevel]] deferred - dummy variable created
+[2022.09.26-13.31.52:293][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleModule]] deferred - dummy variable created
+[2022.09.26-13.31.52:293][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SubUVAnimation]] deferred - dummy variable created
+[2022.09.26-13.31.52:293][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SoundNode]] deferred - dummy variable created
+[2022.09.26-13.31.52:293][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GameplayEffectUIData]] deferred - dummy variable created
+[2022.09.26-13.31.52:293][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:WidgetBlueprint]] deferred - dummy variable created
+[2022.09.26-13.31.52:293][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:GroupActor]] deferred - dummy variable created
+[2022.09.26-13.31.52:293][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:MetaData]] deferred - dummy variable created
+[2022.09.26-13.31.52:293][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:ObjectRedirector]] deferred - dummy variable created
+[2022.09.26-13.31.52:293][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:InterpCurveEdSetup]] deferred - dummy variable created
+[2022.09.26-13.31.52:293][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:MatineeActorCameraAnim]] deferred - dummy variable created
+[2022.09.26-13.31.52:293][  0]LogConfig: CVar [[VersionedIntRValues:r.AllowStaticLighting]] deferred - dummy variable created
+[2022.09.26-13.31.52:293][  0]LogConfig: CVar [[VersionedIntRValues:r.GBuffer]] deferred - dummy variable created
+[2022.09.26-13.31.52:293][  0]LogConfig: CVar [[VersionedIntRValues:r.VelocityOutputPass]] deferred - dummy variable created
+[2022.09.26-13.31.52:293][  0]LogConfig: CVar [[VersionedIntRValues:r.SelectiveBasePassOutputs]] deferred - dummy variable created
+[2022.09.26-13.31.52:293][  0]LogConfig: CVar [[VersionedIntRValues:r.DBuffer]] deferred - dummy variable created
+[2022.09.26-13.31.52:293][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Symbols]] deferred - dummy variable created
+[2022.09.26-13.31.52:293][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.GenerateSymbols]] deferred - dummy variable created
+[2022.09.26-13.31.52:293][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.WriteSymbols]] deferred - dummy variable created
+[2022.09.26-13.31.52:293][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.AllowUniqueSymbols]] deferred - dummy variable created
+[2022.09.26-13.31.52:293][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.ExtraData]] deferred - dummy variable created
+[2022.09.26-13.31.52:293][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Optimize]] deferred - dummy variable created
+[2022.09.26-13.31.52:293][  0]LogConfig: CVar [[VersionedIntRValues:r.CompileShadersForDevelopment]] deferred - dummy variable created
+[2022.09.26-13.31.52:293][  0]LogConfig: CVar [[VersionedIntRValues:r.MobileHDR]] deferred - dummy variable created
+[2022.09.26-13.31.52:293][  0]LogConfig: CVar [[VersionedIntRValues:r.UsePreExposure]] deferred - dummy variable created
+[2022.09.26-13.31.52:300][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
+[2022.09.26-13.31.52:300][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+[2022.09.26-13.31.52:300][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+[2022.09.26-13.31.52:300][  0]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+[2022.09.26-13.31.52:300][  0]LogConfig: Applying CVar settings from Section [ReflectionQuality@3] File [Scalability]
+[2022.09.26-13.31.52:300][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
+[2022.09.26-13.31.52:300][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Scalability]
+[2022.09.26-13.31.52:300][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Scalability]
+[2022.09.26-13.31.52:300][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
+[2022.09.26-13.31.52:300][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Scalability]
+[2022.09.26-13.31.52:300][  0]LogConfig: CVar [[r.HairStrands.Interpolation.UseSingleGuide:0]] deferred - dummy variable created
+[2022.09.26-13.31.52:389][  0]LogD3D12RHI: Aftermath initialized
+[2022.09.26-13.31.52:389][  0]LogD3D12RHI: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+[2022.09.26-13.31.52:722][  0]LogD3D12RHI: Found D3D12 adapter 0: NVIDIA GeForce GTX 1070 Ti (Max supported Feature Level 12_1, shader model 6.6)
+[2022.09.26-13.31.52:722][  0]LogD3D12RHI: Adapter has 8079MB of dedicated video memory, 0MB of dedicated system memory, and 8171MB of shared system memory, 2 output[s]
+[2022.09.26-13.31.52:732][  0]LogD3D12RHI: Found D3D12 adapter 1: Microsoft Basic Render Driver (Max supported Feature Level 12_1, shader model 6.2)
+[2022.09.26-13.31.52:732][  0]LogD3D12RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8171MB of shared system memory, 0 output[s]
+[2022.09.26-13.31.52:732][  0]LogD3D12RHI: Chosen D3D12 Adapter Id = 0
+[2022.09.26-13.31.52:732][  0]LogInit: Selected Device Profile: [WindowsEditor]
+[2022.09.26-13.31.52:733][  0]LogDeviceProfileManager: Applying CVar settings loaded from the selected device profile: [WindowsEditor]
+[2022.09.26-13.31.52:734][  0]LogHAL: Display: Platform has ~ 16 GB [17137774592 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2022.09.26-13.31.52:735][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [Windows]
+[2022.09.26-13.31.52:735][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2022.09.26-13.31.52:735][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2022.09.26-13.31.52:736][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2022.09.26-13.31.52:736][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/EMI/Documents/GitHub/UE5_MyGame/MyGame/Saved/Config/WindowsEditor/Editor.ini]
+[2022.09.26-13.31.52:736][  0]LogInit: Computer: EMILKA
+[2022.09.26-13.31.52:736][  0]LogInit: User: EMI
+[2022.09.26-13.31.52:736][  0]LogInit: CPU Page size=4096, Cores=4
+[2022.09.26-13.31.52:736][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.09.26-13.31.52:736][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2022.09.26-13.31.52:736][  0]LogMemory: Platform Memory Stats for WindowsEditor
+[2022.09.26-13.31.52:736][  0]LogMemory: Process Physical Memory: 250.57 MB used, 260.62 MB peak
+[2022.09.26-13.31.52:736][  0]LogMemory: Process Virtual Memory: 180.86 MB used, 180.86 MB peak
+[2022.09.26-13.31.52:736][  0]LogMemory: Physical Memory: 5353.15 MB used,  10990.71 MB free, 16343.86 MB total
+[2022.09.26-13.31.52:736][  0]LogMemory: Virtual Memory: 7906.37 MB used,  28437.48 MB free, 36343.86 MB total
+[2022.09.26-13.31.52:736][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2022.09.26-13.31.52:744][  0]LogWindows: WindowsPlatformFeatures enabled
+[2022.09.26-13.31.52:875][  0]LogInit: Physics initialised using underlying interface: Chaos
+[2022.09.26-13.31.52:877][  0]LogInit: Using OS detected language (pl-PL).
+[2022.09.26-13.31.52:877][  0]LogInit: Using OS detected locale (pl-PL).
+[2022.09.26-13.31.52:899][  0]LogTextLocalizationManager: No specific localization for 'pl-PL' exists, so 'pl' will be used for the language.
+[2022.09.26-13.31.52:899][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/pl/Editor.locres' could not be opened for reading!
+[2022.09.26-13.31.52:900][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/pl/EditorTutorials.locres' could not be opened for reading!
+[2022.09.26-13.31.52:900][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/pl/Keywords.locres' could not be opened for reading!
+[2022.09.26-13.31.52:900][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/pl/Category.locres' could not be opened for reading!
+[2022.09.26-13.31.52:900][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/pl/ToolTips.locres' could not be opened for reading!
+[2022.09.26-13.31.52:900][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/pl/PropertyNames.locres' could not be opened for reading!
+[2022.09.26-13.31.52:900][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/pl/Engine.locres' could not be opened for reading!
+[2022.09.26-13.31.52:929][  0]LogInit: Setting process to per monitor DPI aware
+[2022.09.26-13.31.52:969][  0]LogWindowsTextInputMethodSystem: Available input methods:
+[2022.09.26-13.31.52:969][  0]LogWindowsTextInputMethodSystem:   - Polski (Polska) - (Keyboard).
+[2022.09.26-13.31.52:969][  0]LogWindowsTextInputMethodSystem: Activated input method: Polski (Polska) - (Keyboard).
+[2022.09.26-13.31.53:044][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2022.09.26-13.31.53:044][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2022.09.26-13.31.55:753][  0]LogD3D12RHI: InitD3DDevice: -D3DDebug = off -D3D12GPUValidation = off
+[2022.09.26-13.31.55:757][  0]LogD3D12RHI: [Aftermath] Aftermath crash dumping enabled
+[2022.09.26-13.31.55:757][  0]LogD3D12RHI: Emitting draw events for PIX profiling.
+[2022.09.26-13.31.55:846][  0]LogD3D12RHI: [Aftermath] Aftermath enabled and primed
+[2022.09.26-13.31.55:846][  0]LogD3D12RHI: [Aftermath] Aftermath resource tracking enabled
+[2022.09.26-13.31.55:846][  0]LogD3D12RHI: ID3D12Device1 is supported.
+[2022.09.26-13.31.55:846][  0]LogD3D12RHI: ID3D12Device2 is supported.
+[2022.09.26-13.31.55:846][  0]LogD3D12RHI: ID3D12Device3 is supported.
+[2022.09.26-13.31.55:846][  0]LogD3D12RHI: ID3D12Device4 is supported.
+[2022.09.26-13.31.55:846][  0]LogD3D12RHI: ID3D12Device5 is supported.
+[2022.09.26-13.31.55:846][  0]LogD3D12RHI: ID3D12Device6 is supported.
+[2022.09.26-13.31.55:846][  0]LogD3D12RHI: ID3D12Device7 is supported.
+[2022.09.26-13.31.55:846][  0]LogD3D12RHI: D3D12 ray tracing tier 1.0 is supported.
+[2022.09.26-13.31.55:846][  0]LogD3D12RHI: AtomicInt64OnTypedResource is supported
+[2022.09.26-13.31.55:846][  0]LogD3D12RHI: AtomicInt64OnGroupShared is supported
+[2022.09.26-13.31.55:846][  0]LogD3D12RHI: AtomicInt64OnDescriptorHeapResource is supported
+[2022.09.26-13.31.55:846][  0]LogD3D12RHI: Shader Model 6.6 atomic64 is supported
+[2022.09.26-13.31.55:899][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for 3D Queue 0
+[2022.09.26-13.31.55:905][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for Copy Queue 0
+[2022.09.26-13.31.55:917][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for Compute Queue 0
+[2022.09.26-13.31.55:928][  0]LogD3D12RHI: Display: Not using pipeline state disk cache per r.D3D12.PSO.DiskCache=0
+[2022.09.26-13.31.55:928][  0]LogD3D12RHI: Display: Not using driver-optimized pipeline state disk cache per r.D3D12.PSO.DriverOptimizedDiskCache=0
+[2022.09.26-13.31.56:038][  0]LogD3D12RHI: Warning: Ray tracing is disabled for NVIDIA cards with the Pascal architecture.
+[2022.09.26-13.31.56:038][  0]LogD3D12RHI:     GPU DeviceId: 0x1b82 (for the marketing name, search the web for "GPU Device Id")
+[2022.09.26-13.31.56:038][  0]LogWindows: Attached monitors:
+[2022.09.26-13.31.56:038][  0]LogWindows:     resolution: 1920x1080, work area: (-1920, 0) -> (0, 1040), device: '\\.\DISPLAY1'
+[2022.09.26-13.31.56:038][  0]LogWindows:     resolution: 1920x1080, work area: (0, 0) -> (1920, 1040), device: '\\.\DISPLAY2' [PRIMARY]
+[2022.09.26-13.31.56:038][  0]LogWindows: Found 2 attached monitors.
+[2022.09.26-13.31.56:038][  0]LogWindows: EnumDisplayDevices:
+[2022.09.26-13.31.56:038][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:1), name: '\\.\DISPLAY1'
+[2022.09.26-13.31.56:039][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070 Ti' (P:1 D:1), name: '\\.\DISPLAY2'
+[2022.09.26-13.31.56:039][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:0), name: '\\.\DISPLAY3'
+[2022.09.26-13.31.56:039][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:0), name: '\\.\DISPLAY4'
+[2022.09.26-13.31.56:039][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2022.09.26-13.31.56:039][  0]LogD3D12RHI:     Adapter Name: NVIDIA GeForce GTX 1070 Ti
+[2022.09.26-13.31.56:039][  0]LogD3D12RHI:   Driver Version: 516.40 (internal:31.0.15.1640, unified:516.40)
+[2022.09.26-13.31.56:039][  0]LogD3D12RHI:      Driver Date: 6-6-2022
+[2022.09.26-13.31.56:039][  0]LogRHI: Texture pool is 4605 MB (70% of 6579 MB)
+[2022.09.26-13.31.56:039][  0]LogD3D12RHI: Async texture creation enabled
+[2022.09.26-13.31.56:039][  0]LogD3D12RHI: RHI has support for 64 bit atomics
+[2022.09.26-13.31.56:070][  0]LogRHI: GeForceNow SDK initialized: 0
+[2022.09.26-13.31.56:118][  0]LogTurnkeySupport: Running Turnkey SDK detection: ' -ScriptsForProject="C:/Users/EMI/Documents/GitHub/UE5_MyGame/MyGame/MyGame.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/EMI/Documents/GitHub/UE5_MyGame/MyGame/Intermediate/TurnkeyReport_0.log" -log="C:/Users/EMI/Documents/GitHub/UE5_MyGame/MyGame/Intermediate/TurnkeyLog_0.log" -project="C:/Users/EMI/Documents/GitHub/UE5_MyGame/MyGame/MyGame.uproject"  -platform=all'
+[2022.09.26-13.31.56:120][  0]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""C:/Program Files/Epic Games/UE_5.0/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="C:/Users/EMI/Documents/GitHub/UE5_MyGame/MyGame/MyGame.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/EMI/Documents/GitHub/UE5_MyGame/MyGame/Intermediate/TurnkeyReport_0.log" -log="C:/Users/EMI/Documents/GitHub/UE5_MyGame/MyGame/Intermediate/TurnkeyLog_0.log" -project="C:/Users/EMI/Documents/GitHub/UE5_MyGame/MyGame/MyGame.uproject"  -platform=all" ]
+[2022.09.26-13.31.56:267][  0]LogTextureFormatETC2: Display: ETC2 Texture loading DLL: TextureConverter.dll
+[2022.09.26-13.31.56:360][  0]LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.5
+[2022.09.26-13.31.56:360][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.5.dll
+[2022.09.26-13.31.56:403][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2022.09.26-13.31.56:403][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2022.09.26-13.31.56:403][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2022.09.26-13.31.56:403][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2022.09.26-13.31.56:403][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2022.09.26-13.31.56:404][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2022.09.26-13.31.56:404][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2022.09.26-13.31.56:404][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2022.09.26-13.31.56:404][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2022.09.26-13.31.56:404][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2022.09.26-13.31.56:455][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'HoloLens'
+[2022.09.26-13.31.56:455][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'HoloLensClient'
+[2022.09.26-13.31.56:478][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2022.09.26-13.31.56:478][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2022.09.26-13.31.56:499][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2022.09.26-13.31.56:499][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxEditor'
+[2022.09.26-13.31.56:499][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2022.09.26-13.31.56:499][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2022.09.26-13.31.56:519][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64'
+[2022.09.26-13.31.56:519][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Server'
+[2022.09.26-13.31.56:519][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Client'
+[2022.09.26-13.31.56:537][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2022.09.26-13.31.56:537][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2022.09.26-13.31.56:579][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2022.09.26-13.31.56:579][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2022.09.26-13.31.56:579][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2022.09.26-13.31.56:579][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2022.09.26-13.31.56:579][  0]LogTargetPlatformManager: Display: Building Assets For WindowsEditor
+[2022.09.26-13.31.56:659][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2022.09.26-13.31.56:677][  0]LogTargetPlatformManager: Unable to find audio format BINKA from hinted modules, loading all potential format modules to find it
+[2022.09.26-13.31.56:677][  0]LogTargetPlatformManager: Loaded format module AudioFormatADPCM
+[2022.09.26-13.31.56:677][  0]LogTargetPlatformManager:   ADPCM
+[2022.09.26-13.31.56:677][  0]LogTargetPlatformManager:   PCM
+[2022.09.26-13.31.56:695][  0]LogTargetPlatformManager: Loaded format module AudioFormatBink
+[2022.09.26-13.31.56:695][  0]LogTargetPlatformManager:   BINKA
+[2022.09.26-13.31.56:695][  0]LogTargetPlatformManager: Loaded format module AudioFormatOgg
+[2022.09.26-13.31.56:695][  0]LogTargetPlatformManager:   OGG
+[2022.09.26-13.31.56:695][  0]LogTargetPlatformManager: Loaded format module AudioFormatOpus
+[2022.09.26-13.31.56:695][  0]LogTargetPlatformManager:   OPUS
+[2022.09.26-13.31.56:953][  0]LogTargetPlatformManager: Unable to find shader format SF_METAL from hinted modules, loading all potential format modules to find it
+[2022.09.26-13.31.56:996][  0]LogTargetPlatformManager: Loaded format module MetalShaderFormat
+[2022.09.26-13.31.56:996][  0]LogTargetPlatformManager:   SF_METAL
+[2022.09.26-13.31.56:996][  0]LogTargetPlatformManager:   SF_METAL_MRT
+[2022.09.26-13.31.56:996][  0]LogTargetPlatformManager:   SF_METAL_TVOS
+[2022.09.26-13.31.56:996][  0]LogTargetPlatformManager:   SF_METAL_MRT_TVOS
+[2022.09.26-13.31.56:996][  0]LogTargetPlatformManager:   SF_METAL_SM5
+[2022.09.26-13.31.56:996][  0]LogTargetPlatformManager:   SF_METAL_MACES3_1
+[2022.09.26-13.31.56:996][  0]LogTargetPlatformManager:   SF_METAL_MRT_MAC
+[2022.09.26-13.31.56:996][  0]LogTargetPlatformManager: Loaded format module ShaderFormatD3D
+[2022.09.26-13.31.56:996][  0]LogTargetPlatformManager:   PCD3D_SM6
+[2022.09.26-13.31.56:996][  0]LogTargetPlatformManager:   PCD3D_SM5
+[2022.09.26-13.31.56:996][  0]LogTargetPlatformManager:   PCD3D_ES31
+[2022.09.26-13.31.56:996][  0]LogTargetPlatformManager:   D3D_ES3_1_HOLOLENS
+[2022.09.26-13.31.56:996][  0]LogTargetPlatformManager: Loaded format module ShaderFormatOpenGL
+[2022.09.26-13.31.56:996][  0]LogTargetPlatformManager:   GLSL_150_ES31
+[2022.09.26-13.31.56:996][  0]LogTargetPlatformManager:   GLSL_ES3_1_ANDROID
+[2022.09.26-13.31.57:022][  0]LogTargetPlatformManager: Loaded format module ShaderFormatVectorVM
+[2022.09.26-13.31.57:023][  0]LogTargetPlatformManager:   VVM_1_0
+[2022.09.26-13.31.57:023][  0]LogTargetPlatformManager: Loaded format module VulkanShaderFormat
+[2022.09.26-13.31.57:023][  0]LogTargetPlatformManager:   SF_VULKAN_SM5
+[2022.09.26-13.31.57:023][  0]LogTargetPlatformManager:   SF_VULKAN_ES31_ANDROID
+[2022.09.26-13.31.57:023][  0]LogTargetPlatformManager:   SF_VULKAN_ES31
+[2022.09.26-13.31.57:023][  0]LogTargetPlatformManager:   SF_VULKAN_SM5_ANDROID
+[2022.09.26-13.31.57:023][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2022.09.26-13.31.57:025][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/EMI/Documents/GitHub/UE5_MyGame/MyGame/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2022.09.26-13.31.57:033][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2022.09.26-13.31.57:033][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/EMI/Documents/GitHub/UE5_MyGame/MyGame/Intermediate/ShaderAutogen/PCD3D_ES31/AutogenShaderHeaders.ush
+[2022.09.26-13.31.57:038][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2022.09.26-13.31.57:044][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/EMI/Documents/GitHub/UE5_MyGame/MyGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.09.26-13.31.57:044][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchy Hierarchy.
+[2022.09.26-13.31.57:044][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/EMI/Documents/GitHub/UE5_MyGame/MyGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.09.26-13.31.57:044][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchy Hierarchy.
+[2022.09.26-13.31.57:074][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1230 MiB)
+[2022.09.26-13.31.57:074][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.09.26-13.31.57:074][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchy Hierarchy.
+[2022.09.26-13.31.57:087][  0]LogDerivedDataCache: Speed tests for C:/Users/EMI/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.01 seconds
+[2022.09.26-13.31.57:087][  0]LogDerivedDataCache: Display: Performance to C:/Users/EMI/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.14ms. RandomReadSpeed=155.12MBs, RandomWriteSpeed=205.02MBs. Assigned SpeedClass 'Local'
+[2022.09.26-13.31.57:088][  0]LogDerivedDataCache: Using Local data cache path C:/Users/EMI/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.09.26-13.31.57:088][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2022.09.26-13.31.57:088][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchy Hierarchy.
+[2022.09.26-13.31.57:097][  0]LogVirtualization: VirtualizationSystem name found in ini file: None
+[2022.09.26-13.31.57:097][  0]LogVirtualization: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2022.09.26-13.31.57:108][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (../../../../../../Users/EMI/Documents/GitHub/UE5_MyGame/MyGame/Intermediate/Shaders/WorkingDirectory/14532/).
+[2022.09.26-13.31.57:108][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/EMI/AppData/Local/Temp/UnrealShaderWorkingDir/4E9920CB414E580D37F9A3B00CFC8E72/'.
+[2022.09.26-13.31.57:109][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2022.09.26-13.31.57:109][  0]LogShaderCompilers: Display: Using Local Shader Compiler with 3 workers.
+[2022.09.26-13.32.02:418][  0]LogTurnkeySupport: Completed SDK detection: ExitCode = 0
+[2022.09.26-13.32.02:418][  0]LogSlate: Using FreeType 2.10.0
+[2022.09.26-13.32.02:429][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.09.26-13.32.02:530][  0]LogAssetRegistry: FAssetRegistry took 0.0267 seconds to start up
+[2022.09.26-13.32.02:538][  0]LogEditorDomain: Display: EditorDomain is Disabled
+[2022.09.26-13.32.02:822][  0]LogSerialization: UsePackageTrailer: 'false'
+[2022.09.26-13.32.02:827][  0]LogTexture: Display: Texture Encode Speed: FinalIfAvailable (editor).
+[2022.09.26-13.32.03:252][  0]LogInit: Selected Device Profile: [WindowsEditor]
+[2022.09.26-13.32.03:252][  0]LogDeviceProfileManager: Active device profile: [00000B9AE7621C00][00000B9ADF042800 50] WindowsEditor
+[2022.09.26-13.32.03:252][  0]LogDeviceProfileManager: Profiles: [00000B9AE76216C0][00000B9ACE725000 50] Windows, [00000B9AE7621C00][00000B9ADF042800 50] WindowsEditor, [00000B9AE7622680][00000B9AD8FDA000 50] WindowsServer, [00000B9AE76224C0][00000B9AE7610000 50] WindowsClient, [00000B9AE7622300][00000B9AE7615000 50] IOS, [00000B9AE7622140][00000B9AE7617800 50] iPadAir2, [00000B9AE7625080][00000B9AE761C800 50] IPadPro, [00000B9AE7625400][00000B9AE761A000 50] iPadAir3, [00000B9AE76247C0][00000B9ADADF2800 50] iPadAir4, [00000B9AE7620380][00000B9AE7630000 50] iPadMini4, [00000B9AE7620000][00000B9AE7635000 50] iPadMini5, [00000B9AE76255C0][00000B9AE7637800 50] iPadMini6, [00000B9AE7628180][00000B9AE7612800 50] iPhone6S, [00000B9AE7628500][00000B9AE763C800 50] iPhone7, [00000B9AE7628880][00000B9AE763A000 50] iPodTouch7, [00000B9AE7625240][00000B9AE7650000 50] iPhone6SPlus, [00000B9AE7627A80][00000B9AE7655000 50] iPhone7Plus, [00000B9AE7622BC0][00000B9AE7657800 50] iPhoneSE, [00000B9AE76240C0][00000B9AE765A000 50] iPhone8, [00000B9AE76263C0][00000B9AE765C800 50] iPhone8Plus, [00000B9AE7623480][00000B9AE7632800 50] iPhoneX, [00000B9AE7624D00][00000B9AE7600000 50] iPhoneXS, [00000B9AE7627380][00000B9AE7605000 50] iPhoneXSMax, [00000B9AE7623D40][00000B9AE7607800 50] iPhoneXR, [00000B9AE7621340][00000B9AE760A000 50] iPhone11, [00000B9AE7626740][00000B9AE760C800 50] iPhone11Pro, [00000B9AE7621F80][00000B9AE7652800 50] iPhone11ProMax, [00000B9AE7622840][00000B9AE7660000 50] iPhoneSE2, [00000B9AE7625E80][00000B9AE7665000 50] iPhone12Mini, [00000B9AE7625CC0][00000B9AE7667800 50] iPhone12, [00000B9AE7627C40][00000B9AE766A000 50] iPhone12Pro, [00000B9AE7628C00][00000B9AE766C800 50] iPhone12ProMax, [00000B9AE7627700][00000B9AE7602800 50] iPhone13Mini, [00000B9AE7624440][00000B9AE7670000 50] iPhone13, [00000B9AE76271C0][00000B9AE7675000 50] iPhone13Pro, [00000B9AE76208C0][00000B9AE7677800 50] iPhone13ProMax, [00000B9AE7623800][00000B9AE767A000 50] iPadPro105, [00000B9AE7624980][00000B9AE767C800 50] iPadPro129, [00000B9AE7627FC0][00000B9AE7662800 50] iPadPro97, [00000B9AE7621DC0][00000B9AE7680000 50] iPadPro2_129, [00000B9AE7627000][00000B9AE7685000 50] iPad5, [00000B9AE7626580][00000B9AE7687800 50] iPad6, [00000B9AE76239C0][00000B9AE768A000 50] iPad7, [00000B9AE76286C0][00000B9AE768C800 50] iPad8, [00000B9AE7625940][00000B9AE7672800 50] iPad9, [00000B9AE7620C40][00000B9AE7690000 50] iPadPro11, [00000B9AE7621A40][00000B9AE7695000 50] iPadPro2_11, [00000B9AE7622F40][00000B9AE7697800 50] iPadPro3_11, [00000B9AE7624600][00000B9AE769A000 50] iPadPro3_129, [00000B9AE7627540][00000B9AE769C800 50] iPadPro4_129, [00000B9AE7625780][00000B9AE7682800 50] iPadPro5_129, [00000B9AE7620A80][00000B9AE76A0000 50] AppleTV, [00000B9AE76232C0][00000B9AE76A5000 50] AppleTV4K, [00000B9AE7622D80][00000B9AE76A7800 50] TVOS, [00000B9AE762A2C0][00000B9AE76AC800 50] Mac, [00000B9AE762A640][00000B9AE76AA000 50] MacEditor, [00000B9AE7629300][00000B9AE7692800 50] MacClient, [00000B9AE76278C0][00000B9AE76B0000 50] MacServer, [00000B9AE762A800][00000B9AE76B7800 50] Linux, [00000B9AE762A100][00000B9AE76B5000 50] LinuxEditor, [00000B9AE7626C80][00000B9AE76BA000 50] LinuxArm64Editor, [00000B9AE7629BC0][00000B9AE76BC800 50] LinuxArm64, [00000B9AE7624280][00000B9AE76A2800 50] LinuxClient, [00000B9AE7627E00][00000B9AE76C0000 50] LinuxArm64Client, [00000B9AE7626AC0][00000B9AE76C5000 50] LinuxServer, [00000B9AE7620FC0][00000B9AE76C7800 50] LinuxArm64Server, [00000B9AE7620700][00000B9AE76CA000 50] Android, [00000B9AE7624B40][00000B9AE76CC800 50] Android_Preview_OpenGL, [00000B9AE7626900][00000B9AE76B2800 50] Android_Preview_Vulkan, [00000B9AE7624EC0][00000B9AE76D0000 50] Android_Low, [00000B9AE7626200][00000B9AE76D5000 50] Android_Mid, [00000B9AE762A480][00000B9AE76D7800 50] Android_High, [00000B9AE7623B80][00000B9AE76DA000 50] Android_Default, [00000B9AE7620E00][00000B9AE76DC800 50] Android_Adreno4xx, [00000B9AE7628A40][00000B9AE76C2800 50] Android_Adreno5xx_Low, [00000B9AE7625B00][00000B9AE76F0000 50] Android_Adreno5xx, [00000B9AE7622A00][00000B9AE76F5000 50] Android_Adreno6xx, [00000B9AE7628340][00000B9AE76F7800 50] Android_Adreno6xx_Vulkan, [00000B9AE7628F80][00000B9AE76FA000 50] Android_Adreno7xx, [00000B9AE7629140][00000B9AE76FC800 50] Android_Adreno7xx_Vulkan, [00000B9AE762A9C0][00000B9AE76D2800 50] Android_Mali_T6xx, [00000B9AE7629F40][00000B9AE7700000 50] Android_Mali_T7xx, [00000B9AE7629D80][00000B9AE7705000 50] Android_Mali_T8xx, [00000B9AE7626E40][00000B9AE7707800 50] Android_Mali_G71, [00000B9AE7623F00][00000B9AE770A000 50] Android_Mali_G72, [00000B9AE7623640][00000B9AE770C800 50] Android_Mali_G72_Vulkan, [00000B9AE76201C0][00000B9AE76F2800 50] Android_Mali_G76, [00000B9AE76294C0][00000B9AE7710000 50] Android_Mali_G76_Vulkan, [00000B9AE762B7C0][00000B9AE7715000 50] Android_Mali_G77, [00000B9AE7621500][00000B9AE7717800 50] Android_Mali_G77_Vulkan, [00000B9AE762AD40][00000B9AE771A000 50] Android_Mali_G78, [00000B9AE7629680][00000B9AE771C800 50] Android_Mali_G78_Vulkan, [00000B9AE7621180][00000B9AE7702800 50] Android_Mali_G710, [00000B9AE7629A00][00000B9AE7720000 50] Android_Mali_G710_Vulkan, [00000B9AE7623100][00000B9AE7725000 50] Android_Xclipse_920, [00000B9AE762B280][00000B9AE7727800 50] Android_Xclipse_920_Vulkan, [00000B9AE762BB40][00000B9AE772A000 50] Android_Vulkan_SM5, [00000B9AE762C400][00000B9AE772C800 50] Android_PowerVR_G6xxx, [00000B9AE762AB80][00000B9AE7712800 50] Android_PowerVR_GT7xxx, [00000B9AE7620540][00000B9AE7730000 50] Android_PowerVR_GE8xxx, [00000B9AE762BD00][00000B9AE7735000 50] Android_PowerVR_GM9xxx, [00000B9AE7629840][00000B9AE7737800 50] Android_PowerVR_GM9xxx_Vulkan, [00000B9AE762B440][00000B9AE773A000 50] Android_TegraK1, [00000B9AE7628DC0][00000B9AE773C800 50] Android_Unknown_Vulkan, [00000B9AE762D200][00000B9AE7722800 50] Oculus_Quest, [00000B9AE762B0C0][00000B9AE7740000 50] Oculus_Quest2, [00000B9AE762D900][00000B9AE7745000 50] HoloLens, 
+[2022.09.26-13.32.03:253][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2022.09.26-13.32.03:261][  0]LogTurnkeySupport: Turnkey Platform: Win64: (Status=Valid, Installed=10.0.19041.0, AutoSDK=, MinAllowed=10.0.00000.0, MaxAllowed=10.9.99999.0, Flags="InstalledSdk_ValidVersionExists")
+[2022.09.26-13.32.03:398][  0]LogTexture: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2022.09.26-13.32.03:878][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.09.26-13.32.03:878][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2022.09.26-13.32.03:878][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2022.09.26-13.32.03:878][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2022.09.26-13.32.03:878][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2022.09.26-13.32.03:973][  0]LogNetVersion: MyGame 1.0.0, NetCL: 19505902, EngineNetVer: 23, GameNetVer: 0 (Checksum: 3531279491)
+[2022.09.26-13.32.04:540][  0]LogSlate: Border
+[2022.09.26-13.32.04:540][  0]LogSlate: BreadcrumbButton
+[2022.09.26-13.32.04:540][  0]LogSlate: Default
+[2022.09.26-13.32.04:540][  0]LogSlate: Icons.Save
+[2022.09.26-13.32.04:540][  0]LogSlate: Icons.Toolbar.Settings
+[2022.09.26-13.32.04:540][  0]LogSlate: ListView
+[2022.09.26-13.32.04:540][  0]LogSlate: SoftwareCursor_CardinalCross
+[2022.09.26-13.32.04:540][  0]LogSlate: SoftwareCursor_Grab
+[2022.09.26-13.32.04:540][  0]LogSlate: TableView.DarkRow
+[2022.09.26-13.32.04:540][  0]LogSlate: TableView.Row
+[2022.09.26-13.32.04:540][  0]LogSlate: TreeView
+[2022.09.26-13.32.05:247][  0]SourceControl: Source control is disabled
+[2022.09.26-13.32.05:346][  0]SourceControl: Source control is disabled
+[2022.09.26-13.32.05:346][  0]SourceControl: Source control is disabled
+[2022.09.26-13.32.05:604][  0]LogUObjectArray: 20557 objects as part of root set at end of initial load.
+[2022.09.26-13.32.05:604][  0]LogUObjectAllocator: 5584264 out of 0 bytes used by permanent object pool.
+[2022.09.26-13.32.05:604][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.09.26-13.32.07:761][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 0EE7AB0644649CD16CD1E383637C1CD9 | Instance: FBD8B6754B82F2E59BD325AC76AB8FCD (EMILKA-14532).
+[2022.09.26-13.32.08:068][  0]LogPython: Using Python 3.9.7
+[2022.09.26-13.32.09:456][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.09.26-13.32.09:508][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.09.26-13.32.10:039][  0]SourceControl: Source control is disabled
+[2022.09.26-13.32.10:065][  0]SourceControl: Source control is disabled
+[2022.09.26-13.32.10:138][  0]SourceControl: Source control is disabled
+[2022.09.26-13.32.10:176][  0]LogUProjectInfo: Found projects:
+[2022.09.26-13.32.12:008][  0]LogOpenImageDenoise: OIDN starting up
+[2022.09.26-13.32.12:250][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.09.26-13.32.12:378][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.09.26-13.32.12:378][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.09.26-13.32.12:814][  0]LogCollectionManager: Loaded 0 collections in 0.001760 seconds
+[2022.09.26-13.32.13:223][  0]LogFileCache: Scanning file cache for directory 'C:/Users/EMI/Documents/GitHub/UE5_MyGame/MyGame/Saved/Collections/' took 0.00s
+[2022.09.26-13.32.13:223][  0]LogFileCache: Scanning file cache for directory 'C:/Users/EMI/Documents/GitHub/UE5_MyGame/MyGame/Content/Developers/EMI/Collections/' took 0.00s
+[2022.09.26-13.32.13:223][  0]LogFileCache: Scanning file cache for directory 'C:/Users/EMI/Documents/GitHub/UE5_MyGame/MyGame/Content/Collections/' took 0.00s
+[2022.09.26-13.32.13:762][  0]LogEngine: Initializing Engine...
+[2022.09.26-13.32.13:783][  0]LogStylusInput: Initializing StylusInput subsystem.
+[2022.09.26-13.32.13:787][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2022.09.26-13.32.14:369][  0]LogInit: Initializing FReadOnlyCVARCache
+[2022.09.26-13.32.14:374][  0]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.09.26-13.32.14:426][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.26-13.32.14:509][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.09.26-13.32.14:522][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2022.09.26-13.32.14:586][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2022.09.26-13.32.14:590][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2022.09.26-13.32.14:591][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2022.09.26-13.32.14:594][  0]LogAudio: Display: Audio Device Manager Initialized
+[2022.09.26-13.32.14:594][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2022.09.26-13.32.14:596][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.26-13.32.14:596][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.26-13.32.14:596][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.26-13.32.14:596][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.26-13.32.14:596][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.26-13.32.14:596][  0]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.09.26-13.32.14:596][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.26-13.32.14:597][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.26-13.32.14:598][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.26-13.32.14:598][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.26-13.32.14:598][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.26-13.32.14:650][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.09.26-13.32.14:763][  0]LogAudioMixer: Display: Using Audio Hardware Device Głośniki (Realtek(R) Audio)
+[2022.09.26-13.32.14:764][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.26-13.32.14:789][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.26-13.32.14:789][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.26-13.32.14:792][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2022.09.26-13.32.14:792][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.09.26-13.32.14:793][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.09.26-13.32.14:793][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+[2022.09.26-13.32.14:793][  0]LogInit: FAudioDevice initialized.
+[2022.09.26-13.32.14:793][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2022.09.26-13.32.14:794][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2022.09.26-13.32.14:794][  0]LogInit: Texture streaming: Enabled
+[2022.09.26-13.32.14:892][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 5.0.3-20979098+++UE5+Release-5.0
+[2022.09.26-13.32.14:920][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2022.09.26-13.32.14:976][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2022.09.26-13.32.15:008][  0]LogLiveCoding: Display: Starting LiveCoding
+[2022.09.26-13.32.15:008][  0]LogLiveCoding: Display: LiveCodingConsole Arguments: MyGameEditor Win64 Development
+[2022.09.26-13.32.16:999][  0]LogLiveCoding: Display: First instance in process group "UE_MyGame_0x84baf300", spawning console
+[2022.09.26-13.32.16:999][  0]LogLiveCoding: Display: Waiting for server
+[2022.09.26-13.32.16:999][  0]LogLiveCoding: Display: Successfully initialized, removing startup thread
+[2022.09.26-13.32.17:036][  0]LogInit: Transaction tracking system initialized
+[2022.09.26-13.32.17:211][  0]BlueprintLog: New page: Editor Load
+[2022.09.26-13.32.17:773][  0]LocalizationService: Localization service is disabled
+[2022.09.26-13.32.17:887][  0]TimingProfiler: Initialize
+[2022.09.26-13.32.17:888][  0]TimingProfiler: OnSessionChanged
+[2022.09.26-13.32.17:888][  0]LoadingProfiler: Initialize
+[2022.09.26-13.32.17:889][  0]LoadingProfiler: OnSessionChanged
+[2022.09.26-13.32.17:890][  0]NetworkingProfiler: Initialize
+[2022.09.26-13.32.17:892][  0]NetworkingProfiler: OnSessionChanged
+[2022.09.26-13.32.17:892][  0]MemoryProfiler: Initialize
+[2022.09.26-13.32.17:892][  0]MemoryProfiler: OnSessionChanged
+[2022.09.26-13.32.19:798][  0]LogFileCache: Scanning file cache for directory 'C:/Users/EMI/Documents/GitHub/UE5_MyGame/MyGame/Content/' took 0.07s
+[2022.09.26-13.32.19:798][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2022.09.26-13.32.20:032][  0]LogAssetRegistry: Display: Package C:/Users/EMI/Documents/GitHub/UE5_MyGame/MyGame/Content/SE_US_Plants_Pack/Maps/Communities/CentralFlorida/DomeSwamp_Map.umap uses an unknown custom version and cannot be loaded for the AssetRegistry
+[2022.09.26-13.32.20:032][  0]LogAssetRegistry: Display: Package C:/Users/EMI/Documents/GitHub/UE5_MyGame/MyGame/Content/SE_US_Plants_Pack/Maps/Communities/CentralFlorida/DepressionMarsh_Map.umap uses an unknown custom version and cannot be loaded for the AssetRegistry
+[2022.09.26-13.32.20:032][  0]LogAssetRegistry: Display: Package C:/Users/EMI/Documents/GitHub/UE5_MyGame/MyGame/Content/SE_US_Plants_Pack/Maps/Communities/CentralFlorida/BasinSwamp_Map.umap uses an unknown custom version and cannot be loaded for the AssetRegistry
+[2022.09.26-13.32.20:032][  0]LogAssetRegistry: Display: Package C:/Users/EMI/Documents/GitHub/UE5_MyGame/MyGame/Content/SE_US_Plants_Pack/Maps/Communities/CentralFlorida/Waterbody_Map.umap uses an unknown custom version and cannot be loaded for the AssetRegistry
+[2022.09.26-13.32.20:032][  0]LogAssetRegistry: Display: Package C:/Users/EMI/Documents/GitHub/UE5_MyGame/MyGame/Content/NE_US_Plants_Pack/Maps/Communities/Appalachia/Appalachia_InBalance_Map.umap uses an unknown custom version and cannot be loaded for the AssetRegistry
+[2022.09.26-13.32.20:032][  0]LogAssetRegistry: Display: Package C:/Users/EMI/Documents/GitHub/UE5_MyGame/MyGame/Content/NE_US_Plants_Pack/Maps/Communities/Appalachia/Appalachia_OutOfBalance_Map.umap uses an unknown custom version and cannot be loaded for the AssetRegistry
+[2022.09.26-13.32.20:032][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2022.09.26-13.32.20:036][  0]SourceControl: Source control is disabled
+[2022.09.26-13.32.20:037][  0]LogUnrealEdMisc: Loading editor; pre map load, took 33.254
+[2022.09.26-13.32.20:040][  0]Cmd: MAP LOAD FILE="../../../../../../Users/EMI/Documents/GitHub/UE5_MyGame/MyGame/Content/Game/Maps/MainMenuOnly.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.09.26-13.32.20:044][  0]LightingResults: New page: Lighting Build
+[2022.09.26-13.32.20:055][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.09.26-13.32.20:057][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.26-13.32.20:058][  0]MapCheck: New page: Map Check
+[2022.09.26-13.32.20:058][  0]LightingResults: New page: Lighting Build
+[2022.09.26-13.32.20:074][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.09.26-13.32.20:084][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2022.09.26-13.32.26:190][  0]LogMaterial: Uniform references updated for custom material expression World to Loc.
+[2022.09.26-13.32.26:190][  0]LogMaterial: Uniform references updated for custom material expression World to Loc.
+[2022.09.26-13.32.26:191][  0]LogMaterial: Uniform references updated for custom material expression World to Loc.
+[2022.09.26-13.32.26:191][  0]LogMaterial: Uniform references updated for custom material expression World to Loc.
+[2022.09.26-13.32.26:191][  0]LogMaterial: Uniform references updated for custom material expression World to Loc.
+[2022.09.26-13.32.27:437][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenuLevel'.
+[2022.09.26-13.32.27:438][  0]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.09.26-13.32.27:438][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.26-13.32.27:761][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.09.26-13.32.27:761][  0]LogAIModule: Creating AISystem for world MainMenuLevel
+[2022.09.26-13.32.27:778][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2022.09.26-13.32.27:779][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.09.26-13.32.27:780][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,468ms to complete.
+[2022.09.26-13.32.27:780][  0]LogFileHelpers: Loading map 'MainMenuOnly' took 7.741
+[2022.09.26-13.32.27:821][  0]LogUnrealEdMisc: Total Editor Startup Time, took 41.038
+[2022.09.26-13.32.27:821][  0]LogShaderCompilers: Display: ================================================
+[2022.09.26-13.32.27:821][  0]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.09.26-13.32.27:821][  0]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2022.09.26-13.32.27:821][  0]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2022.09.26-13.32.27:821][  0]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2022.09.26-13.32.27:821][  0]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.09.26-13.32.27:821][  0]LogShaderCompilers: Display: Shaders Compiled: 0
+[2022.09.26-13.32.27:821][  0]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2022.09.26-13.32.27:821][  0]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2022.09.26-13.32.27:821][  0]LogShaderCompilers: Display: ================================================
+[2022.09.26-13.32.28:009][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2022.09.26-13.32.28:188][  0]LogUObjectGlobals: Warning: Failed to find object 'Class None.Physics'
+[2022.09.26-13.32.28:777][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.26-13.32.28:784][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.26-13.32.28:790][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.26-13.32.28:797][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.26-13.32.28:928][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/StarterContent.upack', mount point: 'root:/'
+[2022.09.26-13.32.28:929][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.09.26-13.32.28:936][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_FirstPerson.upack', mount point: 'root:/'
+[2022.09.26-13.32.28:936][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.09.26-13.32.28:943][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_FirstPersonBP.upack', mount point: 'root:/'
+[2022.09.26-13.32.28:943][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.09.26-13.32.28:950][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_HandheldARBP.upack', mount point: 'root:/'
+[2022.09.26-13.32.28:950][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.09.26-13.32.28:965][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_ThirdPerson.upack', mount point: 'root:/'
+[2022.09.26-13.32.28:965][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.09.26-13.32.28:973][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_ThirdPersonBP.upack', mount point: 'root:/'
+[2022.09.26-13.32.28:973][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.09.26-13.32.28:979][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_TopDown.upack', mount point: 'root:/'
+[2022.09.26-13.32.28:979][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.09.26-13.32.28:985][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_TopDownBP.upack', mount point: 'root:/'
+[2022.09.26-13.32.28:985][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.09.26-13.32.28:991][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
+[2022.09.26-13.32.28:991][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.09.26-13.32.28:998][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2022.09.26-13.32.28:998][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.09.26-13.32.28:998][  0]LogFeaturePack: Error: Error in Feature pack C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_VirtualRealityBP.upack. Failed to parse manifest: Invalid Json Token. Line: 43 Ch: 4
+[2022.09.26-13.32.29:335][  0]LogStall: Startup...
+[2022.09.26-13.32.29:336][  0]LogStall: Startup complete.
+[2022.09.26-13.32.29:379][  0]LogLoad: (Engine Initialization) Total time: 42.60 seconds
+[2022.09.26-13.32.29:379][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.09.26-13.32.29:433][  0]LogAssetRegistry: Asset discovery search completed in 26.9062 seconds
+[2022.09.26-13.32.29:470][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2022.09.26-13.32.29:549][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.09.26-13.32.29:666][  0]LogSlate: Took 0.005038 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.09.26-13.32.29:676][  0]LogSlate: Took 0.005466 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.09.26-13.32.29:683][  0]LogSlate: Took 0.006798 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.09.26-13.32.29:696][  0]LogSlate: Took 0.004793 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.09.26-13.32.29:748][  0]LogViewport: Scene viewport resized to 1014x582, mode Windowed.
+[2022.09.26-13.32.31:223][  3]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.09.26-13.32.38:635][327]LogPackageName: Warning: FPackagePath::TryFromMountedName was passed an ObjectPath (/Game/Game/Play/InventoryComponent/WB_InventorySlot.WB_InventorySlot) rather than a PackageName or FilePath; it will be converted to the PackageName. Accepting ObjectPaths is deprecated behavior and will be removed in a future release; TryFromMountedName will fail on ObjectPaths.
+[2022.09.26-13.32.38:907][327]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Game/Play/InventoryComponent/WB_InventorySlot.WB_InventorySlot
+[2022.09.26-13.32.38:908][327]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.26-13.32.38:918][327]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.26-13.32.38:926][327]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2022.09.26-13.32.40:819][327]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2022.09.26-13.32.40:819][327]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2022.09.26-13.32.40:866][327]LogPackageName: Warning: FPackagePath::TryFromMountedName was passed an ObjectPath (/Game/Game/Play/InventoryComponent/WB_ItemMenu.WB_ItemMenu) rather than a PackageName or FilePath; it will be converted to the PackageName. Accepting ObjectPaths is deprecated behavior and will be removed in a future release; TryFromMountedName will fail on ObjectPaths.
+[2022.09.26-13.32.40:866][327]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Game/Play/InventoryComponent/WB_ItemMenu.WB_ItemMenu
+[2022.09.26-13.32.40:866][327]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.26-13.32.40:875][327]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.26-13.32.41:289][327]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2022.09.26-13.32.41:289][327]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2022.09.26-13.32.41:313][327]LogPackageName: Warning: FPackagePath::TryFromMountedName was passed an ObjectPath (/Game/Game/Play/InventoryComponent/BP_MasterItem.BP_MasterItem) rather than a PackageName or FilePath; it will be converted to the PackageName. Accepting ObjectPaths is deprecated behavior and will be removed in a future release; TryFromMountedName will fail on ObjectPaths.
+[2022.09.26-13.32.41:313][327]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Game/Play/InventoryComponent/BP_MasterItem.BP_MasterItem
+[2022.09.26-13.32.41:314][327]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.26-13.32.41:915][327]LogPackageName: Warning: FPackagePath::TryFromMountedName was passed an ObjectPath (/Game/Game/Play/InventoryComponent/WB_ItemDropAmount.WB_ItemDropAmount) rather than a PackageName or FilePath; it will be converted to the PackageName. Accepting ObjectPaths is deprecated behavior and will be removed in a future release; TryFromMountedName will fail on ObjectPaths.
+[2022.09.26-13.32.41:916][327]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Game/Play/InventoryComponent/WB_ItemDropAmount.WB_ItemDropAmount
+[2022.09.26-13.32.41:916][327]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.26-13.32.41:924][327]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.26-13.32.42:336][327]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2022.09.26-13.32.42:336][327]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2022.09.26-13.32.42:359][327]LogPackageName: Warning: FPackagePath::TryFromMountedName was passed an ObjectPath (/Game/Game/Play/InventoryComponent/AC_Inventory.AC_Inventory) rather than a PackageName or FilePath; it will be converted to the PackageName. Accepting ObjectPaths is deprecated behavior and will be removed in a future release; TryFromMountedName will fail on ObjectPaths.
+[2022.09.26-13.32.42:359][327]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Game/Play/InventoryComponent/AC_Inventory.AC_Inventory
+[2022.09.26-13.32.42:359][327]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.26-13.32.42:803][327]LogPackageName: Warning: FPackagePath::TryFromMountedName was passed an ObjectPath (/Game/Game/Play/InventoryComponent/WB_Inventory.WB_Inventory) rather than a PackageName or FilePath; it will be converted to the PackageName. Accepting ObjectPaths is deprecated behavior and will be removed in a future release; TryFromMountedName will fail on ObjectPaths.
+[2022.09.26-13.32.42:804][327]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Game/Play/InventoryComponent/WB_Inventory.WB_Inventory
+[2022.09.26-13.32.42:804][327]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.26-13.32.42:811][327]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.26-13.32.43:231][327]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2022.09.26-13.32.43:231][327]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2022.09.26-13.32.43:253][327]LogPackageName: Warning: FPackagePath::TryFromMountedName was passed an ObjectPath (/Game/Game/Play/InventoryComponent/WB_DropSlot.WB_DropSlot) rather than a PackageName or FilePath; it will be converted to the PackageName. Accepting ObjectPaths is deprecated behavior and will be removed in a future release; TryFromMountedName will fail on ObjectPaths.
+[2022.09.26-13.32.43:253][327]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Game/Play/InventoryComponent/WB_DropSlot.WB_DropSlot
+[2022.09.26-13.32.43:253][327]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.26-13.32.43:260][327]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.26-13.32.43:670][327]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2022.09.26-13.32.43:670][327]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2022.09.26-13.32.43:694][327]LogPackageName: Warning: FPackagePath::TryFromMountedName was passed an ObjectPath (/Game/Game/Play/BP_MG_Character.BP_MG_Character) rather than a PackageName or FilePath; it will be converted to the PackageName. Accepting ObjectPaths is deprecated behavior and will be removed in a future release; TryFromMountedName will fail on ObjectPaths.
+[2022.09.26-13.32.44:057][327]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Game/Play/BP_MG_Character.BP_MG_Character
+[2022.09.26-13.32.44:058][327]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.26-13.32.44:494][327]LogPackageName: Warning: FPackagePath::TryFromMountedName was passed an ObjectPath (/Game/Game/Play/InventoryComponent/BPI_InventoryInterface.BPI_InventoryInterface) rather than a PackageName or FilePath; it will be converted to the PackageName. Accepting ObjectPaths is deprecated behavior and will be removed in a future release; TryFromMountedName will fail on ObjectPaths.
+[2022.09.26-13.32.44:495][327]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Game/Play/InventoryComponent/BPI_InventoryInterface.BPI_InventoryInterface
+[2022.09.26-13.32.44:495][327]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.26-13.32.45:396][327]LogSlate: Took 0.006061 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.09.26-13.32.47:250][391]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2022.09.26-13.32.48:674][527]LogViewport: Scene viewport resized to 1526x902, mode Windowed.
+[2022.09.26-13.32.49:371][544]LogSlate: Took 0.008929 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.09.26-13.32.49:394][544]LogSlate: Took 0.005525 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.09.26-13.32.50:913][586]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2022.09.26-13.32.50:914][586]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Game/Maps/MainMenuLevel.MainMenuLevel
+[2022.09.26-13.32.50:914][586]Cmd: MAP LOAD FILE="../../../../../../Users/EMI/Documents/GitHub/UE5_MyGame/MyGame/Content/Game/Maps/MainMenuLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.09.26-13.32.50:915][586]LightingResults: New page: Lighting Build
+[2022.09.26-13.32.50:915][586]LoadErrors: New page: Loading map: MainMenuLevel.umap
+[2022.09.26-13.32.50:921][586]LogWorld: UWorld::CleanupWorld for MainMenuLevel, bSessionEnded=true, bCleanupResources=true
+[2022.09.26-13.32.50:921][586]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.26-13.32.50:922][586]MapCheck: New page: Map Check
+[2022.09.26-13.32.50:922][586]LightingResults: New page: Lighting Build
+[2022.09.26-13.32.50:998][586]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.09.26-13.32.51:013][586]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2022.09.26-13.32.51:171][586]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenuLevel'.
+[2022.09.26-13.32.51:171][586]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.09.26-13.32.51:172][586]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.26-13.32.51:172][586]LogAIModule: Creating AISystem for world MainMenuLevel
+[2022.09.26-13.32.51:239][586]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.09.26-13.32.51:332][586]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2022.09.26-13.32.51:343][586]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.09.26-13.32.51:344][586]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,204ms to complete.
+[2022.09.26-13.32.51:344][586]LogFileHelpers: Loading map 'MainMenuLevel' took 0.429
+[2022.09.26-13.32.57:232][  9]LogSlate: Took 0.000132 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.09.26-13.33.09:806][252]LogBlueprint: Warning: [AssetLog] C:\Users\EMI\Documents\GitHub\UE5_MyGame\MyGame\Content\PN_interactiveSpruceForest\UE4_Mannequin\ThirdPersonCharacter.uasset: [Compiler] InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2022.09.26-13.33.09:806][252]LogBlueprint: Warning: [AssetLog] C:\Users\EMI\Documents\GitHub\UE5_MyGame\MyGame\Content\PN_interactiveSpruceForest\UE4_Mannequin\ThirdPersonCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2022.09.26-13.33.09:806][252]LogBlueprint: Warning: [AssetLog] C:\Users\EMI\Documents\GitHub\UE5_MyGame\MyGame\Content\PN_interactiveSpruceForest\UE4_Mannequin\ThirdPersonCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2022.09.26-13.33.09:807][252]LogBlueprint: Warning: [AssetLog] C:\Users\EMI\Documents\GitHub\UE5_MyGame\MyGame\Content\PN_interactiveSpruceForest\UE4_Mannequin\ThirdPersonCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2022.09.26-13.33.09:807][252]LogBlueprint: Warning: [AssetLog] C:\Users\EMI\Documents\GitHub\UE5_MyGame\MyGame\Content\PN_interactiveSpruceForest\UE4_Mannequin\ThirdPersonCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2022.09.26-13.33.09:807][252]LogBlueprint: Warning: [AssetLog] C:\Users\EMI\Documents\GitHub\UE5_MyGame\MyGame\Content\PN_interactiveSpruceForest\UE4_Mannequin\ThirdPersonCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
+[2022.09.26-13.33.09:808][252]LogBlueprint: Warning: [AssetLog] C:\Users\EMI\Documents\GitHub\UE5_MyGame\MyGame\Content\PN_interactiveSpruceForest\UE4_Mannequin\ThirdPersonCharacter.uasset: [Compiler] Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight
+[2022.09.26-13.33.10:214][252]LogTexture: Display: Building textures: /Game/PN_interactiveSpruceForest/UE4_Mannequin/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.T_ML_Rubber_Blue_01_D (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.10:214][252]LogMaterial: Display: Missing cached shadermap for M_UE4Man_Body in PCD3D_SM5, Default, SM5 (DDC key hash: 55CAEE23BE8A7A0B2B239E14861EC0FED4EF7CF8), compiling. 
+[2022.09.26-13.33.10:412][252]LogTexture: Display: Building textures: /Game/PN_interactiveSpruceForest/UE4_Mannequin/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.T_ML_Rubber_Blue_01_N (TFO_BC5, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.10:412][252]LogTexture: Display: Building textures: /Game/PN_interactiveSpruceForest/UE4_Mannequin/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01.T_ML_Aluminum01 (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.10:412][252]LogTexture: Display: Building textures: /Game/PN_interactiveSpruceForest/UE4_Mannequin/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.T_ML_Aluminum01_N (TFO_BC5, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.10:412][252]LogTexture: Display: Building textures: /Game/PN_interactiveSpruceForest/UE4_Mannequin/Mannequin/Character/Textures/UE4Man_Logo_N.UE4Man_Logo_N (TFO_BC5, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.10:412][252]LogTexture: Display: Building textures: /Game/PN_interactiveSpruceForest/Textures/PivotPainterTextures/small/small_01_PIV.small_01_PIV (RGBA16F, 3X3 X1X1) (Required Memory Estimate: 0.000343 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.10:412][252]LogTexture: Display: Building textures: /Game/PN_interactiveSpruceForest/Textures/PivotPainterTextures/small/small_01_VEC.small_01_VEC (BGRA8, 3X3 X1X1) (Required Memory Estimate: 0.000172 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.10:412][252]LogTexture: Display: Building textures: /Game/PN_interactiveSpruceForest/Textures/PivotPainterTextures/small/small_02_PIV.small_02_PIV (RGBA16F, 5X4 X1X1) (Required Memory Estimate: 0.000763 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.10:412][252]LogTexture: Display: Building textures: /Game/PN_interactiveSpruceForest/Textures/PivotPainterTextures/small/small_02_VEC.small_02_VEC (BGRA8, 5X4 X1X1) (Required Memory Estimate: 0.000381 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.10:412][252]LogTexture: Display: Building textures: /Game/PN_interactiveSpruceForest/Textures/PivotPainterTextures/small/small_03_PIV.small_03_PIV (RGBA16F, 7X3 X1X1) (Required Memory Estimate: 0.000801 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.10:412][252]LogTexture: Display: Building textures: /Game/PN_interactiveSpruceForest/Textures/PivotPainterTextures/small/small_03_VEC.small_03_VEC (BGRA8, 7X3 X1X1) (Required Memory Estimate: 0.000401 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.10:412][252]LogMaterial: Display: Missing cached shadermap for M_UE4Man_ChestLogo in PCD3D_SM5, Default, SM5 (DDC key hash: B50AD9A8033EE4E0CE6C1149C452B2C430603DE7), compiling. 
+[2022.09.26-13.33.19:779][674]LogMaterial: Display: Missing cached shadermap for LandscapeSiding_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 25A708C024444A414C962AC2C840990776B96A31), compiling. 
+[2022.09.26-13.33.19:824][674]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_0 in PCD3D_SM5, Default, SM5 (DDC key hash: CF41AAD3C5F0D426FE2FEC99A746D05D3AB24388), compiling. 
+[2022.09.26-13.33.26:683][230]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2022.09.26-13.33.27:393][251]LogEditorViewport: Clicking Background
+[2022.09.26-13.33.28:592][290]LogMeshUtilities: Finished distance field build in 5.6s - 126x126x49 sparse distance field, 1.1Mb total, 0.0Mb always loaded, 77% occupied, 910 triangles, MesicFlatwoods_Siding_SM
+[2022.09.26-13.33.29:025][301]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2022.09.26-13.33.29:117][301]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Game/Maps/GameLevel.GameLevel
+[2022.09.26-13.33.29:117][301]Cmd: MAP LOAD FILE="../../../../../../Users/EMI/Documents/GitHub/UE5_MyGame/MyGame/Content/Game/Maps/GameLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.09.26-13.33.29:118][301]LightingResults: New page: Lighting Build
+[2022.09.26-13.33.29:118][301]LoadErrors: New page: Loading map: GameLevel.umap
+[2022.09.26-13.33.29:123][301]LogWorld: UWorld::CleanupWorld for MainMenuLevel, bSessionEnded=true, bCleanupResources=true
+[2022.09.26-13.33.29:123][301]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.26-13.33.29:124][301]MapCheck: New page: Map Check
+[2022.09.26-13.33.29:124][301]LightingResults: New page: Lighting Build
+[2022.09.26-13.33.29:222][301]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.09.26-13.33.29:239][301]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2022.09.26-13.33.29:271][301]LogTexture: Display: Waiting for textures to be ready 2/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/PondCypress/PondCypressBark_Color_T) ...
+[2022.09.26-13.33.30:658][301]LogMeshUtilities: Finished distance field build in 1.4s - 70x70x42 sparse distance field, 0.3Mb total, 0.0Mb always loaded, 83% occupied, 471 triangles, SabalPalmDead_SM
+[2022.09.26-13.33.30:658][301]LogTexture: Display: Waiting for textures to be ready 3/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/PondCypress/PondCypressBark_Normal_T) ...
+[2022.09.26-13.33.30:695][301]LogTexture: Display: Waiting for textures to be ready 4/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/PondCypress/PondCypress_BB_Color_T) ...
+[2022.09.26-13.33.30:730][301]LogTexture: Display: Waiting for textures to be ready 5/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/SabalPalm/SabalPalmBark_BaseColor_T) ...
+[2022.09.26-13.33.30:767][301]LogTexture: Display: Waiting for textures to be ready 6/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/SabalPalm/SabalPalmBark_Normal_T) ...
+[2022.09.26-13.33.30:800][301]LogTexture: Display: Waiting for textures to be ready 7/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/SabalPalm/SabalPalm_BB_Color_T) ...
+[2022.09.26-13.33.30:826][301]LogTexture: Display: Waiting for textures to be ready 8/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/SabalPalm/SabalPalm_BaseColor_T) ...
+[2022.09.26-13.33.30:860][301]LogTexture: Display: Waiting for textures to be ready 9/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/SabalPalm/SabalPalm_Normal_T) ...
+[2022.09.26-13.33.30:897][301]LogTexture: Display: Waiting for textures to be ready 10/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/SabalPalm/SabalPalm_SSS_T) ...
+[2022.09.26-13.33.30:936][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/SabalPalm/SabalPalm_S_BB_Color_T.SabalPalm_S_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.30:936][301]LogTexture: Display: Waiting for textures to be ready 11/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/SabalPalm/SabalPalm_S_BB_Color_T) ...
+[2022.09.26-13.33.30:976][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/SabalPalm/SabalPalmDead_BB_Color_T.SabalPalmDead_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.30:976][301]LogTexture: Display: Waiting for textures to be ready 12/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/SabalPalm/SabalPalmDead_BB_Color_T) ...
+[2022.09.26-13.33.31:023][301]LogTexture: Display: Waiting for textures to be ready 13/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/SandLiveOak/SandLiveOak_BB_Color_T) ...
+[2022.09.26-13.33.31:050][301]LogTexture: Display: Waiting for textures to be ready 14/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/SandLiveOak/SandLiveOakBark_BaseColor_T) ...
+[2022.09.26-13.33.31:100][301]LogTexture: Display: Waiting for textures to be ready 15/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/SandLiveOak/SandLiveOakBark_Normal_T) ...
+[2022.09.26-13.33.32:693][301]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s, reporting...
+[2022.09.26-13.33.32:693][301]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' report submitted, and took 0.049791s
+[2022.09.26-13.33.32:716][301]LogTexture: Display: Waiting for textures to be ready 21/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/SandLiveOak/SandLiveOakBranches_BaseColor_T) ...
+[2022.09.26-13.33.32:895][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/SandLiveOak/SandLiveOakBranches_BaseColor_T.SandLiveOakBranches_BaseColor_T (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.33:427][301]LogTexture: Display: Waiting for textures to be ready 22/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/SandLiveOak/SandLiveOakBranches_Normal_T) ...
+[2022.09.26-13.33.33:534][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/SandLiveOak/SandLiveOakBranches_Normal_T.SandLiveOakBranches_Normal_T (TFO_BC5, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.33:712][301]LogTexture: Display: Waiting for textures to be ready 23/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/SandLiveOak/SandLiveOakBranches_SSS_T) ...
+[2022.09.26-13.33.33:963][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/SandLiveOak/SandLiveOakBranches_SSS_T.SandLiveOakBranches_SSS_T (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.33:990][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/SandLiveOak/SandLiveOakBranches_WindBlock.SandLiveOakBranches_WindBlock (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.33:990][301]LogTexture: Display: Waiting for textures to be ready 24/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/SandLiveOak/SandLiveOakBranches_WindBlock) ...
+[2022.09.26-13.33.34:015][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/SandLiveOak/SandLiveOakXL_1_BB_Color_T.SandLiveOakXL_1_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.34:015][301]LogTexture: Display: Waiting for textures to be ready 25/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/SandLiveOak/SandLiveOakXL_1_BB_Color_T) ...
+[2022.09.26-13.33.34:042][301]LogTexture: Display: Waiting for textures to be ready 26/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_10/Set_10_BaseColor_T) ...
+[2022.09.26-13.33.34:169][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_10/Set_10_BaseColor_T.Set_10_BaseColor_T (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.34:169][301]LogTexture: Display: Waiting for textures to be ready 27/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_10/Set_10_Normal_T) ...
+[2022.09.26-13.33.34:231][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_10/Set_10_Normal_T.Set_10_Normal_T (TFO_BC5, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.34:231][301]LogTexture: Display: Waiting for textures to be ready 28/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_10/Set_10_SSS_T) ...
+[2022.09.26-13.33.34:304][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_10/Set_10_SSS_T.Set_10_SSS_T (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.34:304][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_10/Set_10_WindBlock_T.Set_10_WindBlock_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.34:304][301]LogTexture: Display: Waiting for textures to be ready 29/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_10/Set_10_WindBlock_T) ...
+[2022.09.26-13.33.34:333][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/SandLiveOak/SandLiveOakXL_2_BB_Color_T.SandLiveOakXL_2_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.34:333][301]LogTexture: Display: Waiting for textures to be ready 30/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/SandLiveOak/SandLiveOakXL_2_BB_Color_T) ...
+[2022.09.26-13.33.34:359][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/SawPalmetto/SawPalmLeaves_BaseColor_T.SawPalmLeaves_BaseColor_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.34:359][301]LogTexture: Display: Waiting for textures to be ready 31/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/SawPalmetto/SawPalmLeaves_BaseColor_T) ...
+[2022.09.26-13.33.34:397][301]LogTexture: Display: Waiting for textures to be ready 32/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/SawPalmetto/SawPalmLeaves_Normal_T) ...
+[2022.09.26-13.33.34:469][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/SawPalmetto/SawPalmLeaves_Normal_T.SawPalmLeaves_Normal_T (TFO_BC5, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.34:469][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/SawPalmetto/SawPalmLeaves_SSS_T.SawPalmLeaves_SSS_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.34:469][301]LogTexture: Display: Waiting for textures to be ready 33/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/SawPalmetto/SawPalmLeaves_SSS_T) ...
+[2022.09.26-13.33.34:490][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/SawPalmetto/SawPalmSingle_BB_Color_T.SawPalmSingle_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.34:490][301]LogTexture: Display: Waiting for textures to be ready 34/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/SawPalmetto/SawPalmSingle_BB_Color_T) ...
+[2022.09.26-13.33.34:534][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/SawPalmetto/SawPalmBaby_BB_Color_T.SawPalmBaby_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.34:534][301]LogTexture: Display: Waiting for textures to be ready 35/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/SawPalmetto/SawPalmBaby_BB_Color_T) ...
+[2022.09.26-13.33.34:577][301]LogTexture: Display: Waiting for textures to be ready 36/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/SawPalmetto/SawPalmBark_BaseColor_T) ...
+[2022.09.26-13.33.34:689][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/SawPalmetto/SawPalmBark_BaseColor_T.SawPalmBark_BaseColor_T (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.34:689][301]LogTexture: Display: Waiting for textures to be ready 37/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/SawPalmetto/SawPalmBark_Normal_T) ...
+[2022.09.26-13.33.34:800][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/SawPalmetto/SawPalmBark_Normal_T.SawPalmBark_Normal_T (TFO_BC5, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.34:800][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/SawPalmetto/SawPalmDouble_BB_Color_T.SawPalmDouble_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.34:801][301]LogTexture: Display: Waiting for textures to be ready 38/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/SawPalmetto/SawPalmDouble_BB_Color_T) ...
+[2022.09.26-13.33.34:845][301]LogTexture: Display: Waiting for textures to be ready 39/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_1/Set_1_SSS_T) ...
+[2022.09.26-13.33.34:927][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_1/Set_1_SSS_T.Set_1_SSS_T (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.34:927][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_1/BlazingStar_M_BB_Color_T.BlazingStar_M_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.34:927][301]LogTexture: Display: Waiting for textures to be ready 40/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_1/BlazingStar_M_BB_Color_T) ...
+[2022.09.26-13.33.34:966][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_1/BlazingStar_S_BB_Color_T.BlazingStar_S_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.34:966][301]LogTexture: Display: Waiting for textures to be ready 41/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_1/BlazingStar_S_BB_Color_T) ...
+[2022.09.26-13.33.35:002][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_1/BrackenFern_L_BB_Color_T.BrackenFern_L_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.35:002][301]LogTexture: Display: Waiting for textures to be ready 42/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_1/BrackenFern_L_BB_Color_T) ...
+[2022.09.26-13.33.35:046][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_1/BrackenFern_M_BB_Color_T.BrackenFern_M_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.35:046][301]LogTexture: Display: Waiting for textures to be ready 43/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_1/BrackenFern_M_BB_Color_T) ...
+[2022.09.26-13.33.35:092][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_1/BrackenFern_S_BB_Color_T.BrackenFern_S_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.35:092][301]LogTexture: Display: Waiting for textures to be ready 44/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_1/BrackenFern_S_BB_Color_T) ...
+[2022.09.26-13.33.35:132][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_1/FeaysPalafox_L_BB_Color_T.FeaysPalafox_L_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.35:132][301]LogTexture: Display: Waiting for textures to be ready 45/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_1/FeaysPalafox_L_BB_Color_T) ...
+[2022.09.26-13.33.35:172][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_1/FeaysPalafox_M_BB_Color_T.FeaysPalafox_M_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.35:172][301]LogTexture: Display: Waiting for textures to be ready 46/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_1/FeaysPalafox_M_BB_Color_T) ...
+[2022.09.26-13.33.35:210][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_1/FeaysPalafox_S_BB_Color_T.FeaysPalafox_S_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.35:210][301]LogTexture: Display: Waiting for textures to be ready 47/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_1/FeaysPalafox_S_BB_Color_T) ...
+[2022.09.26-13.33.35:245][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_10/ChalkyBluestem_BB_Color_T.ChalkyBluestem_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.35:245][301]LogTexture: Display: Waiting for textures to be ready 48/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_10/ChalkyBluestem_BB_Color_T) ...
+[2022.09.26-13.33.35:280][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_10/Indiangrass_BB_Color_T.Indiangrass_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.35:280][301]LogTexture: Display: Waiting for textures to be ready 49/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_10/Indiangrass_BB_Color_T) ...
+[2022.09.26-13.33.35:316][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_10/Wiregrass_L_BB_Color_T.Wiregrass_L_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.35:316][301]LogTexture: Display: Waiting for textures to be ready 50/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_10/Wiregrass_L_BB_Color_T) ...
+[2022.09.26-13.33.35:358][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_10/Wiregrass_S_BB_Color_T.Wiregrass_S_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.35:358][301]LogTexture: Display: Waiting for textures to be ready 51/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_10/Wiregrass_S_BB_Color_T) ...
+[2022.09.26-13.33.35:393][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_2/Coastalplain_L_BB_Color_T.Coastalplain_L_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.35:393][301]LogTexture: Display: Waiting for textures to be ready 52/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_2/Coastalplain_L_BB_Color_T) ...
+[2022.09.26-13.33.35:441][301]LogTexture: Display: Waiting for textures to be ready 53/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_2/Set_2_BaseColor_T) ...
+[2022.09.26-13.33.35:571][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_2/Set_2_BaseColor_T.Set_2_BaseColor_T (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.35:571][301]LogTexture: Display: Waiting for textures to be ready 54/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_2/Set_2_Normal_T) ...
+[2022.09.26-13.33.35:617][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_2/Set_2_Normal_T.Set_2_Normal_T (TFO_BC5, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.35:636][301]LogTexture: Display: Waiting for textures to be ready 55/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_2/Set_2_SSS_T) ...
+[2022.09.26-13.33.35:710][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_2/Set_2_SSS_T.Set_2_SSS_T (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.35:710][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_2/Coastalplain_M_BB_Color_T.Coastalplain_M_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.35:710][301]LogTexture: Display: Waiting for textures to be ready 56/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_2/Coastalplain_M_BB_Color_T) ...
+[2022.09.26-13.33.35:751][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_2/Coastalplain_S_BB_Color_T.Coastalplain_S_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.35:751][301]LogTexture: Display: Waiting for textures to be ready 57/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_2/Coastalplain_S_BB_Color_T) ...
+[2022.09.26-13.33.35:801][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_2/FloridaTickseed_L_BB_Color_T.FloridaTickseed_L_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.35:801][301]LogTexture: Display: Waiting for textures to be ready 58/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_2/FloridaTickseed_L_BB_Color_T) ...
+[2022.09.26-13.33.35:845][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_2/FloridaTickseed_M_BB_Color_T.FloridaTickseed_M_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.35:845][301]LogTexture: Display: Waiting for textures to be ready 59/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_2/FloridaTickseed_M_BB_Color_T) ...
+[2022.09.26-13.33.35:883][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_2/FloridaTickseed_S_BB_Color_T.FloridaTickseed_S_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.35:883][301]LogTexture: Display: Waiting for textures to be ready 60/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_2/FloridaTickseed_S_BB_Color_T) ...
+[2022.09.26-13.33.35:920][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_2/TallJointweed_L_BB_Color_T.TallJointweed_L_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.35:920][301]LogTexture: Display: Waiting for textures to be ready 61/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_2/TallJointweed_L_BB_Color_T) ...
+[2022.09.26-13.33.35:954][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_2/TallJointweed_M_BB_Color_T.TallJointweed_M_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.35:954][301]LogTexture: Display: Waiting for textures to be ready 62/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_2/TallJointweed_M_BB_Color_T) ...
+[2022.09.26-13.33.35:991][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_2/TallJointweed_S_BB_Color_T.TallJointweed_S_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.35:991][301]LogTexture: Display: Waiting for textures to be ready 63/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_2/TallJointweed_S_BB_Color_T) ...
+[2022.09.26-13.33.36:026][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_3/PricklyPear_L_BB_Color_T.PricklyPear_L_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.36:026][301]LogTexture: Display: Waiting for textures to be ready 64/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_3/PricklyPear_L_BB_Color_T) ...
+[2022.09.26-13.33.36:065][301]LogTexture: Display: Waiting for textures to be ready 65/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_3/Set_3_BaseColor_T) ...
+[2022.09.26-13.33.36:202][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_3/Set_3_BaseColor_T.Set_3_BaseColor_T (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.36:202][301]LogTexture: Display: Waiting for textures to be ready 66/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_3/Set_3_Normal_T) ...
+[2022.09.26-13.33.36:238][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_3/Set_3_Normal_T.Set_3_Normal_T (TFO_BC5, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.36:295][301]LogTexture: Display: Waiting for textures to be ready 67/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_3/Set_3_SSS_T) ...
+[2022.09.26-13.33.36:395][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_3/Set_3_SSS_T.Set_3_SSS_T (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.36:395][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_3/PricklyPear_M_BB_Color_T.PricklyPear_M_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.36:395][301]LogTexture: Display: Waiting for textures to be ready 68/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_3/PricklyPear_M_BB_Color_T) ...
+[2022.09.26-13.33.36:440][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_3/PricklyPear_S_BB_Color_T.PricklyPear_S_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.36:440][301]LogTexture: Display: Waiting for textures to be ready 69/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_3/PricklyPear_S_BB_Color_T) ...
+[2022.09.26-13.33.36:483][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_4/FlattopGoldenrod_L_BB_Color_T.FlattopGoldenrod_L_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.36:483][301]LogTexture: Display: Waiting for textures to be ready 70/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_4/FlattopGoldenrod_L_BB_Color_T) ...
+[2022.09.26-13.33.36:536][301]LogTexture: Display: Waiting for textures to be ready 71/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_4/Set_4_BaseColor_T) ...
+[2022.09.26-13.33.36:646][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_4/Set_4_BaseColor_T.Set_4_BaseColor_T (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.36:646][301]LogTexture: Display: Waiting for textures to be ready 72/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_4/Set_4_Normal_T) ...
+[2022.09.26-13.33.36:709][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_4/Set_4_Normal_T.Set_4_Normal_T (TFO_BC5, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.36:709][301]LogTexture: Display: Waiting for textures to be ready 73/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_4/Set_4_SSS_T) ...
+[2022.09.26-13.33.36:795][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_4/Set_4_SSS_T.Set_4_SSS_T (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.36:795][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_4/FlattopGoldenrod_M_BB_Color_T.FlattopGoldenrod_M_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.36:795][301]LogTexture: Display: Waiting for textures to be ready 74/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_4/FlattopGoldenrod_M_BB_Color_T) ...
+[2022.09.26-13.33.36:845][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_4/FlattopGoldenrod_S_BB_Color_T.FlattopGoldenrod_S_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.36:845][301]LogTexture: Display: Waiting for textures to be ready 75/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_4/FlattopGoldenrod_S_BB_Color_T) ...
+[2022.09.26-13.33.36:898][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_4/Goldenrod_BB_L_Color_T.Goldenrod_BB_L_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.36:898][301]LogTexture: Display: Waiting for textures to be ready 76/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_4/Goldenrod_BB_L_Color_T) ...
+[2022.09.26-13.33.36:927][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_4/Goldenrod_BB_M_Color_T.Goldenrod_BB_M_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.36:927][301]LogTexture: Display: Waiting for textures to be ready 77/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_4/Goldenrod_BB_M_Color_T) ...
+[2022.09.26-13.33.36:958][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_4/Goldenrod_BB_S_Color_T.Goldenrod_BB_S_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.36:958][301]LogTexture: Display: Waiting for textures to be ready 78/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_4/Goldenrod_BB_S_Color_T) ...
+[2022.09.26-13.33.36:984][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_4/ReindeerMoss_BB_Color_T.ReindeerMoss_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.36:984][301]LogTexture: Display: Waiting for textures to be ready 79/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_4/ReindeerMoss_BB_Color_T) ...
+[2022.09.26-13.33.37:020][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_5/Coontie_L_BB_Color_T.Coontie_L_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.37:020][301]LogTexture: Display: Waiting for textures to be ready 80/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_5/Coontie_L_BB_Color_T) ...
+[2022.09.26-13.33.37:061][301]LogTexture: Display: Waiting for textures to be ready 81/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_5/Set_5_BaseColor_T) ...
+[2022.09.26-13.33.37:079][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_5/Set_5_BaseColor_T.Set_5_BaseColor_T (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.37:160][301]LogTexture: Display: Waiting for textures to be ready 82/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_5/Set_5_Normal_T) ...
+[2022.09.26-13.33.37:242][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_5/Set_5_Normal_T.Set_5_Normal_T (TFO_BC5, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.37:242][301]LogTexture: Display: Waiting for textures to be ready 83/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_5/Set_5_SSS_T) ...
+[2022.09.26-13.33.37:296][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_5/Set_5_SSS_T.Set_5_SSS_T (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.37:320][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_5/Coontie_M_BB_Color_T.Coontie_M_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.37:320][301]LogTexture: Display: Waiting for textures to be ready 84/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_5/Coontie_M_BB_Color_T) ...
+[2022.09.26-13.33.37:360][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_5/Coontie_S_BB_Color_T.Coontie_S_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.37:360][301]LogTexture: Display: Waiting for textures to be ready 85/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_5/Coontie_S_BB_Color_T) ...
+[2022.09.26-13.33.37:404][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_5/Fetterbush_L_BB_Color_T.Fetterbush_L_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.37:404][301]LogTexture: Display: Waiting for textures to be ready 86/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_5/Fetterbush_L_BB_Color_T) ...
+[2022.09.26-13.33.37:453][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_5/Fetterbush_BB_Color_T.Fetterbush_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.37:453][301]LogTexture: Display: Waiting for textures to be ready 87/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_5/Fetterbush_BB_Color_T) ...
+[2022.09.26-13.33.37:498][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_5/ScrubRosemary_L_BB_Color_T.ScrubRosemary_L_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.37:498][301]LogTexture: Display: Waiting for textures to be ready 88/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_5/ScrubRosemary_L_BB_Color_T) ...
+[2022.09.26-13.33.37:548][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_5/ScrubRosemary_BB_Color_T.ScrubRosemary_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.37:548][301]LogTexture: Display: Waiting for textures to be ready 89/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_5/ScrubRosemary_BB_Color_T) ...
+[2022.09.26-13.33.37:602][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_6/HoodedPitcher_BB_Color_T.HoodedPitcher_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.37:602][301]LogTexture: Display: Waiting for textures to be ready 90/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_6/HoodedPitcher_BB_Color_T) ...
+[2022.09.26-13.33.37:644][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_6/Set_6_BaseColor_T.Set_6_BaseColor_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.37:644][301]LogTexture: Display: Waiting for textures to be ready 91/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_6/Set_6_BaseColor_T) ...
+[2022.09.26-13.33.37:674][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_6/Set_6_Normal_T.Set_6_Normal_T (TFO_BC5, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.37:674][301]LogTexture: Display: Waiting for textures to be ready 92/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_6/Set_6_Normal_T) ...
+[2022.09.26-13.33.37:695][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_6/Set_6_SSS_T.Set_6_SSS_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.37:695][301]LogTexture: Display: Waiting for textures to be ready 93/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_6/Set_6_SSS_T) ...
+[2022.09.26-13.33.37:723][301]LogTexture: Display: Waiting for textures to be ready 94/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_7/Set_7_BaseColor_T) ...
+[2022.09.26-13.33.37:920][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_7/Set_7_BaseColor_T.Set_7_BaseColor_T (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.38:098][301]LogTexture: Display: Waiting for textures to be ready 95/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_7/Set_7_Normal_T) ...
+[2022.09.26-13.33.38:349][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_7/Set_7_Normal_T.Set_7_Normal_T (TFO_BC5, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.38:422][301]LogTexture: Display: Waiting for textures to be ready 96/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_7/Set_7_SSS_T) ...
+[2022.09.26-13.33.38:565][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_7/Set_7_SSS_T.Set_7_SSS_T (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.38:754][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_7/ForkedBluecurl_BB_Color_T.ForkedBluecurl_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.38:754][301]LogTexture: Display: Waiting for textures to be ready 97/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_7/ForkedBluecurl_BB_Color_T) ...
+[2022.09.26-13.33.38:789][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_7/ScarletCalamint_BB_Color_T.ScarletCalamint_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.38:789][301]LogTexture: Display: Waiting for textures to be ready 98/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_7/ScarletCalamint_BB_Color_T) ...
+[2022.09.26-13.33.38:830][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_8/FloridaPaintbrush_BB_Color_T.FloridaPaintbrush_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.38:830][301]LogTexture: Display: Waiting for textures to be ready 99/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_8/FloridaPaintbrush_BB_Color_T) ...
+[2022.09.26-13.33.38:861][301]LogTexture: Display: Waiting for textures to be ready 100/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_8/Set_8_BaseColor_T) ...
+[2022.09.26-13.33.38:954][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_8/Set_8_BaseColor_T.Set_8_BaseColor_T (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.38:954][301]LogTexture: Display: Waiting for textures to be ready 101/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_8/Set_8_Normal_T) ...
+[2022.09.26-13.33.38:972][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_8/Set_8_Normal_T.Set_8_Normal_T (TFO_BC5, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.39:023][301]LogTexture: Display: Waiting for textures to be ready 102/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_8/Set_8_SSS_T) ...
+[2022.09.26-13.33.39:109][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_8/Set_8_SSS_T.Set_8_SSS_T (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.39:109][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_8/RaylessSunflower_BB_Color_T.RaylessSunflower_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.39:109][301]LogTexture: Display: Waiting for textures to be ready 103/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_8/RaylessSunflower_BB_Color_T) ...
+[2022.09.26-13.33.39:145][301]LogTexture: Display: Waiting for textures to be ready 104/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_9/Set_9_BaseColor_T) ...
+[2022.09.26-13.33.39:181][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_9/Set_9_BaseColor_T.Set_9_BaseColor_T (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.39:236][301]LogTexture: Display: Waiting for textures to be ready 105/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_9/Set_9_Normal_T) ...
+[2022.09.26-13.33.39:325][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_9/Set_9_Normal_T.Set_9_Normal_T (TFO_BC5, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.39:325][301]LogTexture: Display: Waiting for textures to be ready 106/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_9/Set_9_SSS_T) ...
+[2022.09.26-13.33.39:393][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_9/Set_9_SSS_T.Set_9_SSS_T (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.39:412][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_9/ShortleafRose_BB_Color_T.ShortleafRose_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.39:412][301]LogTexture: Display: Waiting for textures to be ready 107/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_9/ShortleafRose_BB_Color_T) ...
+[2022.09.26-13.33.39:447][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_9/StJohnsWort_BB_Color_T.StJohnsWort_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.39:447][301]LogTexture: Display: Waiting for textures to be ready 108/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_9/StJohnsWort_BB_Color_T) ...
+[2022.09.26-13.33.39:482][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_9/TitusvilleBalm_BB_Color_T.TitusvilleBalm_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.39:482][301]LogTexture: Display: Waiting for textures to be ready 109/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_9/TitusvilleBalm_BB_Color_T) ...
+[2022.09.26-13.33.39:528][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/WaxMyrtle/WaxMyrtle_L_BB_Color_T.WaxMyrtle_L_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.39:528][301]LogTexture: Display: Waiting for textures to be ready 110/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/WaxMyrtle/WaxMyrtle_L_BB_Color_T) ...
+[2022.09.26-13.33.39:569][301]LogTexture: Display: Waiting for textures to be ready 111/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/WaxMyrtle/WaxMyrtle_BaseColor_T) ...
+[2022.09.26-13.33.39:605][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/WaxMyrtle/WaxMyrtle_BaseColor_T.WaxMyrtle_BaseColor_T (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.39:696][301]LogTexture: Display: Waiting for textures to be ready 112/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/WaxMyrtle/WaxMyrtle_Normal_T) ...
+[2022.09.26-13.33.39:791][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/WaxMyrtle/WaxMyrtle_Normal_T.WaxMyrtle_Normal_T (TFO_BC5, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.39:791][301]LogTexture: Display: Waiting for textures to be ready 113/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/WaxMyrtle/WaxMyrtle_SSS_T) ...
+[2022.09.26-13.33.39:808][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/WaxMyrtle/WaxMyrtle_SSS_T.WaxMyrtle_SSS_T (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.39:866][301]LogTexture: Display: Waiting for textures to be ready 114/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/WaxMyrtle/WaxMyrtleBark_BaseColor_T) ...
+[2022.09.26-13.33.39:980][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/WaxMyrtle/WaxMyrtleBark_BaseColor_T.WaxMyrtleBark_BaseColor_T (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.39:980][301]LogTexture: Display: Waiting for textures to be ready 115/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/WaxMyrtle/WaxMyrtleBarkNormal_T) ...
+[2022.09.26-13.33.40:097][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/WaxMyrtle/WaxMyrtleBarkNormal_T.WaxMyrtleBarkNormal_T (TFO_BC5, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.40:097][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/WaxMyrtle/WaxMyrtle_BB_Color_T.WaxMyrtle_BB_Color_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.40:097][301]LogTexture: Display: Waiting for textures to be ready 116/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/WaxMyrtle/WaxMyrtle_BB_Color_T) ...
+[2022.09.26-13.33.40:145][301]LogTexture: Display: Waiting for textures to be ready 117/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_10/FakeClump_2_BB_Color_T) ...
+[2022.09.26-13.33.40:230][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_10/FakeClump_2_BB_Color_T.FakeClump_2_BB_Color_T (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.40:231][301]LogTexture: Display: Waiting for textures to be ready 118/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_10/FakeClump_BB_Color_T) ...
+[2022.09.26-13.33.40:297][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_10/FakeClump_BB_Color_T.FakeClump_BB_Color_T (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.40:297][301]LogTexture: Display: Building textures: /Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_10/FakeGrassClump_BB_Color_T.FakeGrassClump_BB_Color_T (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.09.26-13.33.40:297][301]LogTexture: Display: Waiting for textures to be ready 119/152 (/Game/SE_US_Plants_Pack/Textures/Plants/CentralFlorida/Set_10/FakeGrassClump_BB_Color_T) ...
+[2022.09.26-13.33.40:371][301]LogTexture: Display: Waiting for textures to be ready 120/152 (/Game/SE_US_Plants_Pack/Textures/Ground/Dirt_BaseColor_T) ...
+[2022.09.26-13.33.40:417][301]LogTexture: Display: Waiting for textures to be ready 121/152 (/Game/SE_US_Plants_Pack/Textures/Ground/Dirt_Normal_T) ...
+[2022.09.26-13.33.40:453][301]LogTexture: Display: Waiting for textures to be ready 122/152 (/Game/SE_US_Plants_Pack/Textures/Ground/Grass_BaseColor_T) ...
+[2022.09.26-13.33.40:506][301]LogTexture: Display: Waiting for textures to be ready 123/152 (/Game/SE_US_Plants_Pack/Textures/Ground/Grass_Normal_T) ...
+[2022.09.26-13.33.40:536][301]LogTexture: Display: Waiting for textures to be ready 124/152 (/Game/SE_US_Plants_Pack/Textures/Ground/Leaves_BaseColor_T) ...
+[2022.09.26-13.33.40:576][301]LogTexture: Display: Waiting for textures to be ready 125/152 (/Game/SE_US_Plants_Pack/Textures/Ground/Leaves_Height_T) ...
+[2022.09.26-13.33.40:615][301]LogTexture: Display: Waiting for textures to be ready 126/152 (/Game/SE_US_Plants_Pack/Textures/Ground/Leaves_Normal_T) ...
