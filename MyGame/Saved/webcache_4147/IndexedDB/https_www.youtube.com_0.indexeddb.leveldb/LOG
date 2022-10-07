@@ -1,1 +1,7 @@
-2022/09/14-20:32:17.211 3830 Reusing MANIFEST C:/Users/EMI/Documents/GitHub/UE5_MyGame/MyGame/Saved/webcache_4147\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/10/07-21:52:14.518 2384 Reusing MANIFEST C:/Users/EMI/Documents/GitHub/UE5_MyGame/MyGame/Saved/webcache_4147\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/10/07-21:52:14.518 2384 Recovering log #3
+2022/10/07-21:52:14.519 2384 Reusing old log C:/Users/EMI/Documents/GitHub/UE5_MyGame/MyGame/Saved/webcache_4147\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/000003.log 
+2022/10/07-21:53:32.341 3bb0 Level-0 table #5: started
+2022/10/07-21:53:32.345 3bb0 Level-0 table #5: 11267 bytes OK
+2022/10/07-21:53:32.348 3bb0 Delete type=0 #3
+2022/10/07-21:53:32.348 3bb0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
