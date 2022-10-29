@@ -9,5 +9,3 @@ Gra stworzona na potrzeby filmiku zgłoszeniowego do programu [Dziewczyny w grze
 ![Game Folder](./readme/03.png)
 
 ![Game Folder](./readme/01.png)
-
-![Game Folder](./readme/02.png)
