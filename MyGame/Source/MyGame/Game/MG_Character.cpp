@@ -53,6 +53,10 @@ AMG_Character::AMG_Character()
 	IsRestingV = false;
 	StartTimeV = false;
 	IsHittingV = false;
+
+	levels.Add("MainMenuLevel");
+	levels.Add("GameLevel1");
+	levels.Add("GameLevel2");
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -72,6 +76,7 @@ void AMG_Character::SetupPlayerInputComponent(class UInputComponent* PlayerInput
 	PlayerInputComponent->BindAction("Hit", IE_Pressed, this, &AMG_Character::IfHitting);
 
 	PlayerInputComponent->BindAction("BackToMainMenu", IE_Pressed, this, &AMG_Character::BackToMainMenu);
+	InputComponent->BindAction("DayNight", IE_Pressed, this, &AMG_Character::DayNight);
 
 	// We have 2 versions of the rotation bindings to handle different kinds of devices differently
 	// "turn" handles devices that provide an absolute delta, such as a mouse.
@@ -178,7 +183,22 @@ void AMG_Character::IfHitting()
 	}
 }
 
+void AMG_Character::DayNight()
+{
+	FString current = GetWorld()->GetMapName();
+	current.RemoveFromStart(GetWorld()->StreamingLevelsPrefix);
+
+	for (int i = 1; i < levels.Num(); i++)
+	{
+		if (current != levels[i])
+		{
+			UGameplayStatics::OpenLevel(GetWorld(), FName(levels[i]));
+			break;
+		}
+	}
+}
+
 void AMG_Character::BackToMainMenu()
 {
-	UGameplayStatics::OpenLevel(GetWorld(), FName("MainMenuLevel"));
+	UGameplayStatics::OpenLevel(GetWorld(), FName(levels[0]));
 }

@@ -75,7 +75,10 @@ public:
 	/** Returns FollowCamera subobject **/
 	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
 
+	void DayNight();
+
 private:
 
 	void BackToMainMenu();
+	TArray<FString> levels;
 };

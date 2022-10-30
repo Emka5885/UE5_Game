@@ -26,7 +26,8 @@ AMG_Pawn::AMG_Pawn()
 	Mesh->SetSimulatePhysics(true);
 
 	levels.Add("MainMenuLevel");
-	levels.Add("GameLevel");
+	levels.Add("GameLevel1");
+	levels.Add("GameLevel2");
 }
 
 // Called when the game starts or when spawned
@@ -48,13 +49,13 @@ void AMG_Pawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 	InputComponent->BindAxis("MoveX", this, &AMG_Pawn::MoveX);
 	InputComponent->BindAxis("MoveY", this, &AMG_Pawn::MoveY);
 	// Custom Action Binding.
-	InputComponent->BindAction("ChangeLevel", IE_Pressed, this, &AMG_Pawn::ChangeLevel);   // ?
+	InputComponent->BindAction("DayNight", IE_Pressed, this, &AMG_Pawn::DayNight);   // ?
 	InputComponent->BindAction("Jump", IE_Pressed, this, &AMG_Pawn::Jump);
 	InputComponent->BindAction("BackToMainMenu", IE_Pressed, this, &AMG_Pawn::BackToMainMenu);
 	
 }
 
-void AMG_Pawn::ChangeLevel()
+void AMG_Pawn::DayNight()
 {
 	FString current = GetWorld()->GetMapName();
 	current.RemoveFromStart(GetWorld()->StreamingLevelsPrefix);
@@ -64,6 +65,7 @@ void AMG_Pawn::ChangeLevel()
 		if (current != levels[i])
 		{
 			UGameplayStatics::OpenLevel(GetWorld(), FName(levels[i]));
+			std::cout << "dziala" << std::endl;
 			break;
 		}
 	}
