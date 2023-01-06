@@ -2,7 +2,7 @@
 
 <h3>Description :page_facing_up:</h3>
 
-Gra stworzona na potrzeby filmiku zgłoszeniowego do programu [Dziewczyny w grze](https://dziewczynywgrze.pl/) :video_game:
+Game created for the application video for the program [Dziewczyny w grze](https://dziewczynywgrze.pl/) :video_game:
 
 <h2></h2>
 
